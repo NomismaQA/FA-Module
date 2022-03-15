@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+ 
+
+<suite name="Suitfile">
+
+<listeners>
+ <listener class-name="reports.TestNGListener"/>
+<listener class-name="reports.ExtentTestListener" />
+</listeners>
+
+<test name= "Verifyregistrationnoappearingoncoverpage_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.Verifyregistrationnoappearingoncoverpage_DefaultProfile"/>
+   			</classes>
+  </test> 			
+  <test name= "Verifycountryname2_DefaultProfile" enabled="true"> 
+  <classes> 
+    				<class name= "tests.Verifycountryname2_DefaultProfile"/>
+   			</classes>
+   </test>			
+   <test name= "Verifytitlereport_DefaultProfile" enabled="true"> 
+  <classes> 
+    				<class name= "tests.Verifytitlereport_DefaultProfile"/>
+   			</classes>
+   	</test>		
+    <test name= "Verifyheaderappearance_DefaultProfile" enabled="true"> 
+  <classes> 
+    				<class name= "tests.Verifyheaderappearance_DefaultProfile"/>
+   			</classes>
+   	</test>		
+   <test name= "Verifyrenamedone_DefaultProfile" enabled="true"> 
+  <classes> 
+    				<class name= "tests.Verifyrenamedone_DefaultProfile"/>
+   			</classes>
+   	</test>		
+   	 <test name= "Verifydynamicfooter_DefaultProfile" enabled="true"> 
+  <classes> 
+    				<class name= "tests.Verifydynamicfooter_DefaultProfile"/>
+   			</classes>
+  </test> 			
+  <test name= "Verifyregistrationnoonpartnership_DefaultProfile" enabled="true"> 
+  <classes> 
+    				<class name= "tests.Verifyregistrationnoonpartnership_DefaultProfile"/>
+   			</classes>
+  </test> 			
+ <test name= "FAverifycountryname1_DefaultProfile" enabled="true"> 
+  <classes> 
+    				<class name= "tests.FAverifycountryname1_DefaultProfile"/>
+   			</classes>
+  </test> 			
+ <test name= "Verifymembernewone_DefaultProfile" enabled="true"> 
+  <classes> 
+    				<class name= "tests.Verifymembernewone_DefaultProfile"/>
+    				</classes>
+ </test> 	
+ 		
+ <test name= "VerifyMemberswhoservedduringtheyearappearingonPartnershipInformationpage15_DefaultProfile" enabled="true"> 
+  <classes> 
+    				<class name= "tests.VerifyMemberswhoservedduringtheyearappearingonPartnershipInformationpage15_DefaultProfile"/>
+   			</classes>
+  </test> 			
+ <test name= "VerifymemberswhoservedduringtheyearappearingonPartnershipInformationpage16_DefaultProfile" enabled="true"> 
+  <classes> 
+    				<class name= "tests.VerifymemberswhoservedduringtheyearappearingonPartnershipInformationpage16_DefaultProfile"/>
+   			</classes>
+   	</test>		
+   <test name= "Verifypartnershipsecretary_DefaultProfile" enabled="true"> 
+  <classes> 
+  <class name= "tests.Verifypartnershipsecretary_DefaultProfile"/>
+   			</classes>
+   	</test>		
+    <test name= "Verifyregisteredofficeaddress_DefaultProfile" enabled="true"> 
+  <classes> 
+    				<class name= "tests.Verifyregisteredofficeaddress_DefaultProfile"/>
+   			</classes>
+   </test>			
+  <test name= "Verifytradingaddress_DefaultProfile" enabled="true"> 
+  <classes> 
+    				<class name= "tests.Verifytradingaddress_DefaultProfile"/>
+   			</classes>
+  </test>
+  <test name= "Verifyaccountantonpartnershippage_DefaultProfile" enabled="true"> 
+  <classes> 
+    				<class name= "tests.Verifyaccountantonpartnershippage_DefaultProfile"/>
+   			</classes> 			
+   </test>
+   <test name= "VerifyheaderappearanceonStatementofFinancialPositionpage_DefaultProfile" enabled="true"> 
+  <classes> 
+    				<class name= "tests.VerifyheaderappearanceonStatementofFinancialPositionpage_DefaultProfile"/>
+   			</classes>			
+   </test>
+   <test name= "Verifynotesappearanceonstatementoffinancialpositionpage_DefaultProfile" enabled="true"> 
+  <classes> 
+    				<class name= "tests.Verifynotesappearanceonstatementoffinancialpositionpage_DefaultProfile"/>
+   			</classes>			
+      
+   </test> 
+   
+    <test name= "VerifydefaultstatusofGeneralInformationonStatementofFinancialPositionpage_DefaultProfile" enabled="true"> 
+  <classes> 
+    				<class name= "tests.VerifydefaultstatusofGeneralInformationonStatementofFinancialPositionpage_DefaultProfile"/>
+   			</classes>						
+  </test> 			
+   <test name= "VerifydefaultstatusofgeneralInformationonstatementoffinancialpositionpage29_DefaultProfile" enabled="true"> 
+  <classes> 
+    				<class name= "tests.VerifydefaultstatusofgeneralInformationonstatementoffinancialpositionpage29_DefaultProfile"/>
+   			</classes> 			
+  </test>
+   <test name= "Verifydefaultstatusofmembersonstatementoffinancialpositionpage1_DefaultProfile" enabled="true"> 
+  <classes> 
+    				<class name= "tests.Verifydefaultstatusofmembersonstatementoffinancialpositionpage1_DefaultProfile"/>
+   			</classes> 			
+  </test> 			
+   <test name= "Verifydefaultstatusofmembersstatementoffinancialpositionpage31_DefaultProfile" enabled="true"> 
+  <classes> 
+    				<class name= "tests.Verifydefaultstatusofmembersstatementoffinancialpositionpage31_DefaultProfile"/>
+   			</classes>
+  </test>
+  <test name= "Verifydefaultstatusofguaranteesandotherfinancialcommitments32_DefaultProfile" enabled="true"> 
+  <classes> 
+    				<class name= "tests.Verifydefaultstatusofguaranteesandotherfinancialcommitments32_DefaultProfile"/>
+   			</classes>
+  </test>
+  <test name= "Verifydefaultstatusofguaranteesandotherfinancialcommitments33_DefaultProfile" enabled="true"> 
+  <classes> 
+    				<class name= "tests.Verifydefaultstatusofguaranteesandotherfinancialcommitments33_DefaultProfile"/>
+   			</classes>
+  </test>
+  <test name= "Verifydefaultstatusofaveragenumberofemployees34_DefaultProfile" enabled="true"> 
+  <classes> 
+    				<class name= "tests.Verifydefaultstatusofaveragenumberofemployees34_DefaultProfile"/>
+   			</classes>
+  </test>
+  <test name= "VerifydefaultstatusofAveragenumberofemployees35_DefaultProfile" enabled="true"> 
+  <classes> 
+    				<class name= "tests.VerifydefaultstatusofAveragenumberofemployees35_DefaultProfile"/>
+   			</classes>
+  </test>
+  <test name= "VerifydefaultstatusofMembersinterest36_DefaultProfile" enabled="true"> 
+  <classes> 
+    				<class name= "tests.VerifydefaultstatusofMembersinterest36_DefaultProfile"/>
+   			</classes>
+  </test>
+  <test name= "Verifydefaultstatusofmembersinterest37_DefaultProfile" enabled="true"> 
+  <classes> 
+    				<class name= "tests.Verifydefaultstatusofmembersinterest37_DefaultProfile"/>
+   			</classes>
+  </test>
+  <test name= "VerifyheaderappearanceonDetailedIncomeStatementpage41_DefaultProfile" enabled="true"> 
+  <classes> 
+    				<class name= "tests.VerifyheaderappearanceonDetailedIncomeStatementpage41_DefaultProfile"/>
+   			</classes>
+  </test>
+  <test name= "VerifyAccountantssignaturedetails43_DefaultProfile" enabled="true"> 
+  <classes> 
+    				<class name= "tests.VerifyAccountantssignaturedetails43_DefaultProfile"/>
+   			</classes>
+  </test>
+ <test name= "Verifythereportisntacharteredaccountantone44_DefaultProfile" enabled="true"> 
+  <classes> 
+    				<class name= "tests.Verifythereportisntacharteredaccountantone44_DefaultProfile"/>
+   			</classes> 
+</test>
+<test name= "VerifyheaderappearanceonIncomeStatementpage46_DefaultProfile" enabled="true"> 
+  <classes> 
+    				<class name= "tests.VerifyheaderappearanceonIncomeStatementpage46_DefaultProfile"/>
+   			</classes>  
+ </test> 
+ <test name= "VerifyheaderappearanceonStatementofFinancialPositionpage50_DefaultProfile" enabled="true"> 
+  <classes> 
+    				<class name= "tests.VerifyheaderappearanceonStatementofFinancialPositionpage50_DefaultProfile"/>
+   			</classes>
+ </test>
+ <test name= "VerifyNotesappearanceonStatementofFinancialPositionpage51_DefaultProfile" enabled="true"> 
+  <classes> 
+    				<class name= "tests.VerifyNotesappearanceonStatementofFinancialPositionpage51_DefaultProfile"/>
+   			</classes>
+ </test>
+ 
+ <test name= "Verifybalancesheetfootnoteappearance52_DefaultProfile" enabled="true"> 
+  <classes> 
+    				<class name= "tests.Verifybalancesheetfootnoteappearance52_DefaultProfile"/>
+   			</classes>
+ 			
+ </test>
+  
+  <test name= "Verifydynamicfooterpagenation53_DefaultProfile" enabled="true"> 
+  <classes> 
+    				<class name= "tests.Verifydynamicfooterpagenation53_DefaultProfile"/>
+   			</classes>
+   			
+ </test>
+ <test name= "Verifydynamicfooterpagenation54_DefaultProfile" enabled="true"> 
+  <classes> 
+    				<class name= "tests.Verifydynamicfooterpagenation54_DefaultProfile"/>
+   			</classes>  			
+ </test>
+ 
+ <test name= "VerifydefaultstatusofGeneralInformation55_DefaultProfile" enabled="true"> 
+  <classes> 
+    				<class name= "tests.VerifydefaultstatusofGeneralInformation55_DefaultProfile"/>
+   			</classes>
+ </test>
+ 
+ <test name= "VerifydefaultstatusofGeneralInformation56_DefaultProfile" enabled="true"> 
+  <classes> 
+    				<class name= "tests.VerifydefaultstatusofGeneralInformation56_DefaultProfile"/>
+   			</classes>
+ </test>
+ 
+ <test name= "VerifydefaultstatusofMembersbenefitsadvancescreditandguarantees57_DefaultProfile" enabled="true"> 
+  <classes> 
+    				<class name= "tests.VerifydefaultstatusofMembersbenefitsadvancescreditandguarantees57_DefaultProfile"/>
+   			</classes>
+ </test>
+ 
+ <test name= "VerifydefaultstatusofMembersbenefitsadvancescreditandguarantees58_DefaultProfile" enabled="true"> 
+  <classes> 
+    				<class name= "tests.VerifydefaultstatusofMembersbenefitsadvancescreditandguarantees58_DefaultProfile"/>
+   			</classes>
+ </test>
+  
+  <test name= "VerifydefaultstatusofGuaranteesandotherfinancialcommitments59_DefaultProfile" enabled="true"> 
+  <classes> 
+    				<class name= "tests.VerifydefaultstatusofGuaranteesandotherfinancialcommitments59_DefaultProfile"/>
+   			</classes>
+  </test> 
+   <test name= "VerifydefaultstatusofGuaranteesandotherfinancialcommitments60_DefaultProfile" enabled="true"> 
+  <classes> 
+    				<class name= "tests.VerifydefaultstatusofGuaranteesandotherfinancialcommitments60_DefaultProfile"/>
+   			</classes>
+   
+   </test> 
+   <test name= "VerifydefaultstatusofAveragenumberofemployees61_DefaultProfile" enabled="true"> 
+  <classes> 
+    				<class name= "tests.VerifydefaultstatusofAveragenumberofemployees61_DefaultProfile"/>
+   			</classes>
+   
+   </test> 
+   <test name= "VerifydefaultstatusofAveragenumberofemployees62_DefaultProfile" enabled="true"> 
+  <classes> 
+    				<class name= "tests.VerifydefaultstatusofAveragenumberofemployees62_DefaultProfile"/>
+   			</classes>
+ 
+  </test> 
+   <test name= "VerifydefaultstatusofMembersinterest63_DefaultProfile" enabled="true"> 
+  <classes> 
+    				<class name= "tests.VerifydefaultstatusofMembersinterest63_DefaultProfile"/>
+   			</classes> 
+  
+  </test> 
+   <test name= "VerifydefaultstatusofMembersinterest64_DefaultProfile" enabled="true"> 
+  <classes> 
+    				<class name= "tests.VerifydefaultstatusofMembersinterest64_DefaultProfile"/>
+   			</classes> 
+  
+  </test> 
+   <test name= "VerifyheaderappearanceonDetailedIncomeStatement68_DefaultProfile" enabled="true"> 
+  <classes> 
+    				<class name= "tests.VerifyheaderappearanceonDetailedIncomeStatement68_DefaultProfile"/>
+   			</classes> 
+  
+  </test> 
+   <test name= "Verifyrenamingoflastlineitemasperrequirment49_DefaultProfile" enabled="true"> 
+  <classes> 
+    				<class name= "tests.Verifyrenamingoflastlineitemasperrequirment49_DefaultProfile"/>
+   			</classes> 
+  
+   </test> 
+   <test name= "Verifyledgercode4020and4021areincludedunderTurnover69_DefaultProfile" enabled="true"> 
+  <classes> 
+    				<class name= "tests.Verifyledgercode4020and4021areincludedunderTurnover69_DefaultProfile"/>
+   			</classes> 
+   			
+    </test> 
+   <test name= "Verifythissectiondoesnotformpartofthestatutoryaccounts74_DefaultProfile" enabled="true"> 
+  <classes> 
+    				<class name= "tests.Verifythissectiondoesnotformpartofthestatutoryaccounts74_DefaultProfile"/>
+   			</classes> 
+   
+ </test>
+ 
+    				
+</suite>
+
+	

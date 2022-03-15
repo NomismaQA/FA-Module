@@ -1,0 +1,1026 @@
+<html>
+<head>
+<title>TestNG:  Staffcosts10FA775_DefaultProfile</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Staffcosts10FA775_DefaultProfile</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Aug 12 01:52:01 IST 2021</td>
+</tr>
+<tr><td>Total time:</td><td>123 seconds (123939 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='tests.CostofSales4FA775_DefaultProfile.GoToUrlAssertUrl()'><b>GoToUrlAssertUrl</b><br>Test class: tests.CostofSales4FA775_DefaultProfile</td>
+<td><div><pre>java.lang.AssertionError: Unable to locate object: By.xpath: //A[contains(text(),&apos;(5,533)&apos;)]
+	at pages.CostofSales4FA775.Click__5533_(CostofSales4FA775.java:523)
+	at tests.CostofSales4FA775_DefaultProfile.GoToUrlAssertUrl(CostofSales4FA775_DefaultProfile.java:98)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace6633388", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace6633388'><pre>java.lang.AssertionError: Unable to locate object: By.xpath: //A[contains(text(),&apos;(5,533)&apos;)]
+	at org.testng.Assert.fail(Assert.java:97)
+	at pages.CostofSales4FA775.Click__5533_(CostofSales4FA775.java:523)
+	at tests.CostofSales4FA775_DefaultProfile.GoToUrlAssertUrl(CostofSales4FA775_DefaultProfile.java:98)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at org.testng.TestRunner.privateRun(TestRunner.java:766)
+	at org.testng.TestRunner.run(TestRunner.java:587)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+	at org.testng.TestNG.runSuites(TestNG.java:1039)
+	at org.testng.TestNG.run(TestNG.java:1007)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>87</td>
+<td>tests.CostofSales4FA775_DefaultProfile@55342f40</td></tr>
+<tr>
+<td title='tests.CostofSales5FA775_DefaultProfile.GoToUrlAssertUrl()'><b>GoToUrlAssertUrl</b><br>Test class: tests.CostofSales5FA775_DefaultProfile</td>
+<td><div><pre>java.lang.AssertionError: Unable to locate object: By.xpath: //A[contains(text(),&apos;(5,533)&apos;)]
+	at pages.CostofSales5FA775.Click__5533_(CostofSales5FA775.java:527)
+	at tests.CostofSales5FA775_DefaultProfile.GoToUrlAssertUrl(CostofSales5FA775_DefaultProfile.java:98)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1712003741", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1712003741'><pre>java.lang.AssertionError: Unable to locate object: By.xpath: //A[contains(text(),&apos;(5,533)&apos;)]
+	at org.testng.Assert.fail(Assert.java:97)
+	at pages.CostofSales5FA775.Click__5533_(CostofSales5FA775.java:527)
+	at tests.CostofSales5FA775_DefaultProfile.GoToUrlAssertUrl(CostofSales5FA775_DefaultProfile.java:98)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at org.testng.TestRunner.privateRun(TestRunner.java:766)
+	at org.testng.TestRunner.run(TestRunner.java:587)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+	at org.testng.TestNG.runSuites(TestNG.java:1039)
+	at org.testng.TestNG.run(TestNG.java:1007)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>93</td>
+<td>tests.CostofSales5FA775_DefaultProfile@3542162a</td></tr>
+<tr>
+<td title='tests.CostofSales6FA775_DefaultProfile.GoToUrlAssertUrl()'><b>GoToUrlAssertUrl</b><br>Test class: tests.CostofSales6FA775_DefaultProfile</td>
+<td><div><pre>java.lang.AssertionError: Unable to locate object: By.xpath: //A[contains(text(),&apos;(5,533)&apos;)]
+	at pages.CostofSales6FA775.Click__5533_(CostofSales6FA775.java:526)
+	at tests.CostofSales6FA775_DefaultProfile.GoToUrlAssertUrl(CostofSales6FA775_DefaultProfile.java:98)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace318787032", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace318787032'><pre>java.lang.AssertionError: Unable to locate object: By.xpath: //A[contains(text(),&apos;(5,533)&apos;)]
+	at org.testng.Assert.fail(Assert.java:97)
+	at pages.CostofSales6FA775.Click__5533_(CostofSales6FA775.java:526)
+	at tests.CostofSales6FA775_DefaultProfile.GoToUrlAssertUrl(CostofSales6FA775_DefaultProfile.java:98)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at org.testng.TestRunner.privateRun(TestRunner.java:766)
+	at org.testng.TestRunner.run(TestRunner.java:587)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+	at org.testng.TestNG.runSuites(TestNG.java:1039)
+	at org.testng.TestNG.run(TestNG.java:1007)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>87</td>
+<td>tests.CostofSales6FA775_DefaultProfile@17a87e37</td></tr>
+<tr>
+<td title='tests.CostofSales7FA775_DefaultProfile.GoToUrlAssertUrl()'><b>GoToUrlAssertUrl</b><br>Test class: tests.CostofSales7FA775_DefaultProfile</td>
+<td><div><pre>java.lang.AssertionError: Unable to locate object: By.xpath: //A[contains(text(),&apos;(5,533)&apos;)]
+	at pages.CostofSales7FA775.Click__5533_(CostofSales7FA775.java:527)
+	at tests.CostofSales7FA775_DefaultProfile.GoToUrlAssertUrl(CostofSales7FA775_DefaultProfile.java:98)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1620771868", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1620771868'><pre>java.lang.AssertionError: Unable to locate object: By.xpath: //A[contains(text(),&apos;(5,533)&apos;)]
+	at org.testng.Assert.fail(Assert.java:97)
+	at pages.CostofSales7FA775.Click__5533_(CostofSales7FA775.java:527)
+	at tests.CostofSales7FA775_DefaultProfile.GoToUrlAssertUrl(CostofSales7FA775_DefaultProfile.java:98)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at org.testng.TestRunner.privateRun(TestRunner.java:766)
+	at org.testng.TestRunner.run(TestRunner.java:587)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+	at org.testng.TestNG.runSuites(TestNG.java:1039)
+	at org.testng.TestNG.run(TestNG.java:1007)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>90</td>
+<td>tests.CostofSales7FA775_DefaultProfile@57459491</td></tr>
+<tr>
+<td title='tests.CostofSales8FA775_DefaultProfile.GoToUrlAssertUrl()'><b>GoToUrlAssertUrl</b><br>Test class: tests.CostofSales8FA775_DefaultProfile</td>
+<td><div><pre>java.lang.AssertionError: Unable to locate object: By.xpath: //A[contains(text(),&apos;(5,533)&apos;)]
+	at pages.CostofSales8FA775.Click__5533_(CostofSales8FA775.java:529)
+	at tests.CostofSales8FA775_DefaultProfile.GoToUrlAssertUrl(CostofSales8FA775_DefaultProfile.java:98)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1340666542", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1340666542'><pre>java.lang.AssertionError: Unable to locate object: By.xpath: //A[contains(text(),&apos;(5,533)&apos;)]
+	at org.testng.Assert.fail(Assert.java:97)
+	at pages.CostofSales8FA775.Click__5533_(CostofSales8FA775.java:529)
+	at tests.CostofSales8FA775_DefaultProfile.GoToUrlAssertUrl(CostofSales8FA775_DefaultProfile.java:98)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at org.testng.TestRunner.privateRun(TestRunner.java:766)
+	at org.testng.TestRunner.run(TestRunner.java:587)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+	at org.testng.TestNG.runSuites(TestNG.java:1039)
+	at org.testng.TestNG.run(TestNG.java:1007)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>95</td>
+<td>tests.CostofSales8FA775_DefaultProfile@3fa2213</td></tr>
+<tr>
+<td title='tests.CostofSales9FA775_DefaultProfile.GoToUrlAssertUrl()'><b>GoToUrlAssertUrl</b><br>Test class: tests.CostofSales9FA775_DefaultProfile</td>
+<td><div><pre>java.lang.AssertionError: Unable to locate object: By.xpath: //A[contains(text(),&apos;(5,533)&apos;)]
+	at pages.CostofSales9FA775.Click__5533_(CostofSales9FA775.java:522)
+	at tests.CostofSales9FA775_DefaultProfile.GoToUrlAssertUrl(CostofSales9FA775_DefaultProfile.java:98)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace351108575", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace351108575'><pre>java.lang.AssertionError: Unable to locate object: By.xpath: //A[contains(text(),&apos;(5,533)&apos;)]
+	at org.testng.Assert.fail(Assert.java:97)
+	at pages.CostofSales9FA775.Click__5533_(CostofSales9FA775.java:522)
+	at tests.CostofSales9FA775_DefaultProfile.GoToUrlAssertUrl(CostofSales9FA775_DefaultProfile.java:98)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at org.testng.TestRunner.privateRun(TestRunner.java:766)
+	at org.testng.TestRunner.run(TestRunner.java:587)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+	at org.testng.TestNG.runSuites(TestNG.java:1039)
+	at org.testng.TestNG.run(TestNG.java:1007)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>100</td>
+<td>tests.CostofSales9FA775_DefaultProfile@4044fb95</td></tr>
+<tr>
+<td title='tests.CostofSales10FA775_DefaultProfile.GoToUrlAssertUrl()'><b>GoToUrlAssertUrl</b><br>Test class: tests.CostofSales10FA775_DefaultProfile</td>
+<td><div><pre>java.lang.AssertionError: Unable to locate object: By.xpath: //A[contains(text(),&apos;(5,533)&apos;)]
+	at pages.CostofSales10FA775.Click__5533_(CostofSales10FA775.java:527)
+	at tests.CostofSales10FA775_DefaultProfile.GoToUrlAssertUrl(CostofSales10FA775_DefaultProfile.java:98)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace51362851", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace51362851'><pre>java.lang.AssertionError: Unable to locate object: By.xpath: //A[contains(text(),&apos;(5,533)&apos;)]
+	at org.testng.Assert.fail(Assert.java:97)
+	at pages.CostofSales10FA775.Click__5533_(CostofSales10FA775.java:527)
+	at tests.CostofSales10FA775_DefaultProfile.GoToUrlAssertUrl(CostofSales10FA775_DefaultProfile.java:98)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at org.testng.TestRunner.privateRun(TestRunner.java:766)
+	at org.testng.TestRunner.run(TestRunner.java:587)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+	at org.testng.TestNG.runSuites(TestNG.java:1039)
+	at org.testng.TestNG.run(TestNG.java:1007)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>97</td>
+<td>tests.CostofSales10FA775_DefaultProfile@1af146</td></tr>
+<tr>
+<td title='tests.Costofrawmaterialsandconsumables1FA775_DefaultProfile.GoToUrlAssertUrl()'><b>GoToUrlAssertUrl</b><br>Test class: tests.Costofrawmaterialsandconsumables1FA775_DefaultProfile</td>
+<td><div><pre>java.lang.AssertionError: Unable to locate object: By.xpath: //A[contains(text(),&apos;(5,038)&apos;)]
+	at pages.Cost_of_raw_materials_and_consumables1FA775.Click_Cost_of_raw_material_and_consumables(Cost_of_raw_materials_and_consumables1FA775.java:528)
+	at tests.Costofrawmaterialsandconsumables1FA775_DefaultProfile.GoToUrlAssertUrl(Costofrawmaterialsandconsumables1FA775_DefaultProfile.java:98)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1961805376", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1961805376'><pre>java.lang.AssertionError: Unable to locate object: By.xpath: //A[contains(text(),&apos;(5,038)&apos;)]
+	at org.testng.Assert.fail(Assert.java:97)
+	at pages.Cost_of_raw_materials_and_consumables1FA775.Click_Cost_of_raw_material_and_consumables(Cost_of_raw_materials_and_consumables1FA775.java:528)
+	at tests.Costofrawmaterialsandconsumables1FA775_DefaultProfile.GoToUrlAssertUrl(Costofrawmaterialsandconsumables1FA775_DefaultProfile.java:98)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at org.testng.TestRunner.privateRun(TestRunner.java:766)
+	at org.testng.TestRunner.run(TestRunner.java:587)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+	at org.testng.TestNG.runSuites(TestNG.java:1039)
+	at org.testng.TestNG.run(TestNG.java:1007)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>102</td>
+<td>tests.Costofrawmaterialsandconsumables1FA775_DefaultProfile@7c209437</td></tr>
+<tr>
+<td title='tests.Costofrawmaterialsandconsumables2FA775_DefaultProfile.GoToUrlAssertUrl()'><b>GoToUrlAssertUrl</b><br>Test class: tests.Costofrawmaterialsandconsumables2FA775_DefaultProfile</td>
+<td><div><pre>java.lang.AssertionError: Unable to locate object: By.xpath: //A[contains(text(),&apos;(5,038)&apos;)]
+	at pages.Cost_of_raw_materials_and_consumables2FA775.Click_Cost_of_raw_material_and_consumables(Cost_of_raw_materials_and_consumables2FA775.java:528)
+	at tests.Costofrawmaterialsandconsumables2FA775_DefaultProfile.GoToUrlAssertUrl(Costofrawmaterialsandconsumables2FA775_DefaultProfile.java:98)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1181756454", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1181756454'><pre>java.lang.AssertionError: Unable to locate object: By.xpath: //A[contains(text(),&apos;(5,038)&apos;)]
+	at org.testng.Assert.fail(Assert.java:97)
+	at pages.Cost_of_raw_materials_and_consumables2FA775.Click_Cost_of_raw_material_and_consumables(Cost_of_raw_materials_and_consumables2FA775.java:528)
+	at tests.Costofrawmaterialsandconsumables2FA775_DefaultProfile.GoToUrlAssertUrl(Costofrawmaterialsandconsumables2FA775_DefaultProfile.java:98)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at org.testng.TestRunner.privateRun(TestRunner.java:766)
+	at org.testng.TestRunner.run(TestRunner.java:587)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+	at org.testng.TestNG.runSuites(TestNG.java:1039)
+	at org.testng.TestNG.run(TestNG.java:1007)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>101</td>
+<td>tests.Costofrawmaterialsandconsumables2FA775_DefaultProfile@42e3ede4</td></tr>
+<tr>
+<td title='tests.Costofrawmaterialsandconsumables3FA775_DefaultProfile.GoToUrlAssertUrl()'><b>GoToUrlAssertUrl</b><br>Test class: tests.Costofrawmaterialsandconsumables3FA775_DefaultProfile</td>
+<td><div><pre>java.lang.AssertionError: Unable to locate object: By.xpath: //A[contains(text(),&apos;(5,038)&apos;)]
+	at pages.Cost_of_raw_materials_and_consumables3FA775.Click_Cost_of_raw_material_and_consumables(Cost_of_raw_materials_and_consumables3FA775.java:575)
+	at tests.Costofrawmaterialsandconsumables3FA775_DefaultProfile.GoToUrlAssertUrl(Costofrawmaterialsandconsumables3FA775_DefaultProfile.java:98)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace539952463", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace539952463'><pre>java.lang.AssertionError: Unable to locate object: By.xpath: //A[contains(text(),&apos;(5,038)&apos;)]
+	at org.testng.Assert.fail(Assert.java:97)
+	at pages.Cost_of_raw_materials_and_consumables3FA775.Click_Cost_of_raw_material_and_consumables(Cost_of_raw_materials_and_consumables3FA775.java:575)
+	at tests.Costofrawmaterialsandconsumables3FA775_DefaultProfile.GoToUrlAssertUrl(Costofrawmaterialsandconsumables3FA775_DefaultProfile.java:98)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at org.testng.TestRunner.privateRun(TestRunner.java:766)
+	at org.testng.TestRunner.run(TestRunner.java:587)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+	at org.testng.TestNG.runSuites(TestNG.java:1039)
+	at org.testng.TestNG.run(TestNG.java:1007)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>134</td>
+<td>tests.Costofrawmaterialsandconsumables3FA775_DefaultProfile@cb191ca</td></tr>
+<tr>
+<td title='tests.Costofrawmaterialsandconsumables4FA775_DefaultProfile.GoToUrlAssertUrl()'><b>GoToUrlAssertUrl</b><br>Test class: tests.Costofrawmaterialsandconsumables4FA775_DefaultProfile</td>
+<td><div><pre>java.lang.AssertionError: Unable to locate object: By.xpath: //A[contains(text(),&apos;(5,038)&apos;)]
+	at pages.Cost_of_raw_materials_and_consumables4FA775.Click_Cost_of_raw_material_and_consumables(Cost_of_raw_materials_and_consumables4FA775.java:553)
+	at tests.Costofrawmaterialsandconsumables4FA775_DefaultProfile.GoToUrlAssertUrl(Costofrawmaterialsandconsumables4FA775_DefaultProfile.java:98)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace638404853", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace638404853'><pre>java.lang.AssertionError: Unable to locate object: By.xpath: //A[contains(text(),&apos;(5,038)&apos;)]
+	at org.testng.Assert.fail(Assert.java:97)
+	at pages.Cost_of_raw_materials_and_consumables4FA775.Click_Cost_of_raw_material_and_consumables(Cost_of_raw_materials_and_consumables4FA775.java:553)
+	at tests.Costofrawmaterialsandconsumables4FA775_DefaultProfile.GoToUrlAssertUrl(Costofrawmaterialsandconsumables4FA775_DefaultProfile.java:98)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at org.testng.TestRunner.privateRun(TestRunner.java:766)
+	at org.testng.TestRunner.run(TestRunner.java:587)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+	at org.testng.TestNG.runSuites(TestNG.java:1039)
+	at org.testng.TestNG.run(TestNG.java:1007)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>139</td>
+<td>tests.Costofrawmaterialsandconsumables4FA775_DefaultProfile@5af3a0f</td></tr>
+<tr>
+<td title='tests.Costofrawmaterialsandconsumables5FA775_DefaultProfile.GoToUrlAssertUrl()'><b>GoToUrlAssertUrl</b><br>Test class: tests.Costofrawmaterialsandconsumables5FA775_DefaultProfile</td>
+<td><div><pre>java.lang.AssertionError: Unable to locate object: By.xpath: //A[contains(text(),&apos;(5,038)&apos;)]
+	at pages.Cost_of_raw_materials_and_consumables5FA775.Click_Cost_of_raw_material_and_consumables(Cost_of_raw_materials_and_consumables5FA775.java:555)
+	at tests.Costofrawmaterialsandconsumables5FA775_DefaultProfile.GoToUrlAssertUrl(Costofrawmaterialsandconsumables5FA775_DefaultProfile.java:98)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace341475869", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace341475869'><pre>java.lang.AssertionError: Unable to locate object: By.xpath: //A[contains(text(),&apos;(5,038)&apos;)]
+	at org.testng.Assert.fail(Assert.java:97)
+	at pages.Cost_of_raw_materials_and_consumables5FA775.Click_Cost_of_raw_material_and_consumables(Cost_of_raw_materials_and_consumables5FA775.java:555)
+	at tests.Costofrawmaterialsandconsumables5FA775_DefaultProfile.GoToUrlAssertUrl(Costofrawmaterialsandconsumables5FA775_DefaultProfile.java:98)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at org.testng.TestRunner.privateRun(TestRunner.java:766)
+	at org.testng.TestRunner.run(TestRunner.java:587)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+	at org.testng.TestNG.runSuites(TestNG.java:1039)
+	at org.testng.TestNG.run(TestNG.java:1007)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>120</td>
+<td>tests.Costofrawmaterialsandconsumables5FA775_DefaultProfile@41e350f1</td></tr>
+<tr>
+<td title='tests.Costofrawmaterialsandconsumables6FA775_DefaultProfile.GoToUrlAssertUrl()'><b>GoToUrlAssertUrl</b><br>Test class: tests.Costofrawmaterialsandconsumables6FA775_DefaultProfile</td>
+<td><div><pre>java.lang.AssertionError: Unable to locate object: By.xpath: //A[contains(text(),&apos;(5,038)&apos;)]
+	at pages.Cost_of_raw_materials_and_consumables6FA775.Click_Cost_of_raw_material_and_consumables(Cost_of_raw_materials_and_consumables6FA775.java:555)
+	at tests.Costofrawmaterialsandconsumables6FA775_DefaultProfile.GoToUrlAssertUrl(Costofrawmaterialsandconsumables6FA775_DefaultProfile.java:98)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1307119702", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1307119702'><pre>java.lang.AssertionError: Unable to locate object: By.xpath: //A[contains(text(),&apos;(5,038)&apos;)]
+	at org.testng.Assert.fail(Assert.java:97)
+	at pages.Cost_of_raw_materials_and_consumables6FA775.Click_Cost_of_raw_material_and_consumables(Cost_of_raw_materials_and_consumables6FA775.java:555)
+	at tests.Costofrawmaterialsandconsumables6FA775_DefaultProfile.GoToUrlAssertUrl(Costofrawmaterialsandconsumables6FA775_DefaultProfile.java:98)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at org.testng.TestRunner.privateRun(TestRunner.java:766)
+	at org.testng.TestRunner.run(TestRunner.java:587)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+	at org.testng.TestNG.runSuites(TestNG.java:1039)
+	at org.testng.TestNG.run(TestNG.java:1007)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>135</td>
+<td>tests.Costofrawmaterialsandconsumables6FA775_DefaultProfile@40c80397</td></tr>
+<tr>
+<td title='tests.CostofSales2FA775_DefaultProfile.GoToUrlAssertUrlClick5533()'><b>GoToUrlAssertUrlClick5533</b><br>Test class: tests.CostofSales2FA775_DefaultProfile</td>
+<td><div><pre>java.lang.AssertionError: Unable to locate object: By.xpath: //A[contains(text(),&apos;(5,533)&apos;)]
+	at pages.CostofSales2FA775.Click__5533_(CostofSales2FA775.java:526)
+	at tests.CostofSales2FA775_DefaultProfile.GoToUrlAssertUrlClick5533(CostofSales2FA775_DefaultProfile.java:100)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1907982059", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1907982059'><pre>java.lang.AssertionError: Unable to locate object: By.xpath: //A[contains(text(),&apos;(5,533)&apos;)]
+	at org.testng.Assert.fail(Assert.java:97)
+	at pages.CostofSales2FA775.Click__5533_(CostofSales2FA775.java:526)
+	at tests.CostofSales2FA775_DefaultProfile.GoToUrlAssertUrlClick5533(CostofSales2FA775_DefaultProfile.java:100)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at org.testng.TestRunner.privateRun(TestRunner.java:766)
+	at org.testng.TestRunner.run(TestRunner.java:587)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+	at org.testng.TestNG.runSuites(TestNG.java:1039)
+	at org.testng.TestNG.run(TestNG.java:1007)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>100</td>
+<td>tests.CostofSales2FA775_DefaultProfile@13f17eb4</td></tr>
+<tr>
+<td title='tests.CostofSales3FA775_DefaultProfile.GoToUrlAssertUrlClick5533()'><b>GoToUrlAssertUrlClick5533</b><br>Test class: tests.CostofSales3FA775_DefaultProfile</td>
+<td><div><pre>java.lang.AssertionError: Unable to locate object: By.xpath: //A[contains(text(),&apos;(5,533)&apos;)]
+	at pages.CostofSales3FA775.Click__5533_(CostofSales3FA775.java:526)
+	at tests.CostofSales3FA775_DefaultProfile.GoToUrlAssertUrlClick5533(CostofSales3FA775_DefaultProfile.java:98)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1157276914", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1157276914'><pre>java.lang.AssertionError: Unable to locate object: By.xpath: //A[contains(text(),&apos;(5,533)&apos;)]
+	at org.testng.Assert.fail(Assert.java:97)
+	at pages.CostofSales3FA775.Click__5533_(CostofSales3FA775.java:526)
+	at tests.CostofSales3FA775_DefaultProfile.GoToUrlAssertUrlClick5533(CostofSales3FA775_DefaultProfile.java:98)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at org.testng.TestRunner.privateRun(TestRunner.java:766)
+	at org.testng.TestRunner.run(TestRunner.java:587)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+	at org.testng.TestNG.runSuites(TestNG.java:1039)
+	at org.testng.TestNG.run(TestNG.java:1007)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>109</td>
+<td>tests.CostofSales3FA775_DefaultProfile@246f8b8b</td></tr>
+<tr>
+<td title='tests.CostofrawmaterialsandconsumablesFA775_DefaultProfile.GoToUrlAssertUrlClickCostofrawmaterialandconsumables()'><b>GoToUrlAssertUrlClickCostofrawmaterialandconsumables</b><br>Test class: tests.CostofrawmaterialsandconsumablesFA775_DefaultProfile</td>
+<td><div><pre>java.lang.AssertionError: Unable to locate object: By.xpath: //A[contains(text(),&apos;(5,038)&apos;)]
+	at pages.Cost_of_raw_materials_and_consumablesFA775.Click_Cost_of_raw_material_and_consumables(Cost_of_raw_materials_and_consumablesFA775.java:542)
+	at tests.CostofrawmaterialsandconsumablesFA775_DefaultProfile.GoToUrlAssertUrlClickCostofrawmaterialandconsumables(CostofrawmaterialsandconsumablesFA775_DefaultProfile.java:98)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace630298110", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace630298110'><pre>java.lang.AssertionError: Unable to locate object: By.xpath: //A[contains(text(),&apos;(5,038)&apos;)]
+	at org.testng.Assert.fail(Assert.java:97)
+	at pages.Cost_of_raw_materials_and_consumablesFA775.Click_Cost_of_raw_material_and_consumables(Cost_of_raw_materials_and_consumablesFA775.java:542)
+	at tests.CostofrawmaterialsandconsumablesFA775_DefaultProfile.GoToUrlAssertUrlClickCostofrawmaterialandconsumables(CostofrawmaterialsandconsumablesFA775_DefaultProfile.java:98)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at org.testng.TestRunner.privateRun(TestRunner.java:766)
+	at org.testng.TestRunner.run(TestRunner.java:587)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+	at org.testng.TestNG.runSuites(TestNG.java:1039)
+	at org.testng.TestNG.run(TestNG.java:1007)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>125</td>
+<td>tests.CostofrawmaterialsandconsumablesFA775_DefaultProfile@20a8a64e</td></tr>
+<tr>
+<td title='tests.FA7751_DefaultProfile.GoToUrlAssertUrlPositiveEnterUsernamePositiveEnterPasswordClickLoginButtonPositiveEnterAgentNa()'><b>GoToUrlAssertUrlPositiveEnterUsernamePositiveEnterPasswordClickLoginButtonPositiveEnterAgentNa</b><br>Test class: tests.FA7751_DefaultProfile</td>
+<td><div><pre>java.lang.NullPointerException: null value in entry: id=null
+	at com.google.common.collect.CollectPreconditions.checkEntryNotNull(CollectPreconditions.java:32)
+	at com.google.common.collect.SingletonImmutableBiMap.&lt;init&gt;(SingletonImmutableBiMap.java:42)
+	at com.google.common.collect.ImmutableBiMap.of(ImmutableBiMap.java:70)
+	at com.google.common.collect.ImmutableMap.of(ImmutableMap.java:123)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.frame(RemoteWebDriver.java:891)
+	at pages.FA7751.Select_ReportingStdType(FA7751.java:824)
+	at tests.FA7751_DefaultProfile.GoToUrlAssertUrlPositiveEnterUsernamePositiveEnterPasswordClickLoginButtonPositiveEnterAgentNa(FA7751_DefaultProfile.java:135)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1984294974", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1984294974'><pre>java.lang.NullPointerException: null value in entry: id=null
+	at com.google.common.collect.CollectPreconditions.checkEntryNotNull(CollectPreconditions.java:32)
+	at com.google.common.collect.SingletonImmutableBiMap.&lt;init&gt;(SingletonImmutableBiMap.java:42)
+	at com.google.common.collect.ImmutableBiMap.of(ImmutableBiMap.java:70)
+	at com.google.common.collect.ImmutableMap.of(ImmutableMap.java:123)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.frame(RemoteWebDriver.java:891)
+	at pages.FA7751.Select_ReportingStdType(FA7751.java:824)
+	at tests.FA7751_DefaultProfile.GoToUrlAssertUrlPositiveEnterUsernamePositiveEnterPasswordClickLoginButtonPositiveEnterAgentNa(FA7751_DefaultProfile.java:135)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at org.testng.TestRunner.privateRun(TestRunner.java:766)
+	at org.testng.TestRunner.run(TestRunner.java:587)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+	at org.testng.TestNG.runSuites(TestNG.java:1039)
+	at org.testng.TestNG.run(TestNG.java:1007)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>66</td>
+<td>tests.FA7751_DefaultProfile@4566d049</td></tr>
+<tr>
+<td title='tests.FA775newclientmodule_DefaultProfile.GoToUrlAssertUrlPositiveEnterUsernamePositiveEnterPasswordClickLoginButtonPositiveEnterAgentNa()'><b>GoToUrlAssertUrlPositiveEnterUsernamePositiveEnterPasswordClickLoginButtonPositiveEnterAgentNa</b><br>Test class: tests.FA775newclientmodule_DefaultProfile</td>
+<td><div><pre>java.lang.AssertionError: expected [282,745] but found [342,745]
+	at pages.FA775newclientmodule.Click_Income_Statement_Page(FA775newclientmodule.java:1023)
+	at tests.FA775newclientmodule_DefaultProfile.GoToUrlAssertUrlPositiveEnterUsernamePositiveEnterPasswordClickLoginButtonPositiveEnterAgentNa(FA775newclientmodule_DefaultProfile.java:164)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1843207249", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1843207249'><pre>java.lang.AssertionError: expected [282,745] but found [342,745]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:575)
+	at org.testng.Assert.assertEquals(Assert.java:585)
+	at pages.FA775newclientmodule.Click_Income_Statement_Page(FA775newclientmodule.java:1023)
+	at tests.FA775newclientmodule_DefaultProfile.GoToUrlAssertUrlPositiveEnterUsernamePositiveEnterPasswordClickLoginButtonPositiveEnterAgentNa(FA775newclientmodule_DefaultProfile.java:164)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at org.testng.TestRunner.privateRun(TestRunner.java:766)
+	at org.testng.TestRunner.run(TestRunner.java:587)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+	at org.testng.TestNG.runSuites(TestNG.java:1039)
+	at org.testng.TestNG.run(TestNG.java:1007)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>70</td>
+<td>tests.FA775newclientmodule_DefaultProfile@64a8c844</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='tests.Turnover3FA775_DefaultProfile.GoToUrlAssertUrl()'><b>GoToUrlAssertUrl</b><br>Test class: tests.Turnover3FA775_DefaultProfile</td>
+<td></td>
+<td>79</td>
+<td>tests.Turnover3FA775_DefaultProfile@5733f295</td></tr>
+<tr>
+<td title='tests.Turnover4FA775_DefaultProfile.GoToUrlAssertUrl()'><b>GoToUrlAssertUrl</b><br>Test class: tests.Turnover4FA775_DefaultProfile</td>
+<td></td>
+<td>82</td>
+<td>tests.Turnover4FA775_DefaultProfile@5a85c92</td></tr>
+<tr>
+<td title='tests.Turnover5FA775_DefaultProfile.GoToUrlAssertUrl()'><b>GoToUrlAssertUrl</b><br>Test class: tests.Turnover5FA775_DefaultProfile</td>
+<td></td>
+<td>89</td>
+<td>tests.Turnover5FA775_DefaultProfile@4bd1f8dd</td></tr>
+<tr>
+<td title='tests.CostofSalesFA775_DefaultProfile.GoToUrlAssertUrl()'><b>GoToUrlAssertUrl</b><br>Test class: tests.CostofSalesFA775_DefaultProfile</td>
+<td></td>
+<td>81</td>
+<td>tests.CostofSalesFA775_DefaultProfile@43aaf813</td></tr>
+<tr>
+<td title='tests.CostofSales11FA775_DefaultProfile.GoToUrlAssertUrl()'><b>GoToUrlAssertUrl</b><br>Test class: tests.CostofSales11FA775_DefaultProfile</td>
+<td></td>
+<td>129</td>
+<td>tests.CostofSales11FA775_DefaultProfile@5dd91bca</td></tr>
+<tr>
+<td title='tests.CostofSales12FA775_DefaultProfile.GoToUrlAssertUrl()'><b>GoToUrlAssertUrl</b><br>Test class: tests.CostofSales12FA775_DefaultProfile</td>
+<td></td>
+<td>139</td>
+<td>tests.CostofSales12FA775_DefaultProfile@2bd2b28e</td></tr>
+<tr>
+<td title='tests.Costofrawmaterialsandconsumables7FA775_DefaultProfile.GoToUrlAssertUrl()'><b>GoToUrlAssertUrl</b><br>Test class: tests.Costofrawmaterialsandconsumables7FA775_DefaultProfile</td>
+<td></td>
+<td>124</td>
+<td>tests.Costofrawmaterialsandconsumables7FA775_DefaultProfile@60dce7ea</td></tr>
+<tr>
+<td title='tests.Costofrawmaterialsandconsumables8FA775_DefaultProfile.GoToUrlAssertUrl()'><b>GoToUrlAssertUrl</b><br>Test class: tests.Costofrawmaterialsandconsumables8FA775_DefaultProfile</td>
+<td></td>
+<td>127</td>
+<td>tests.Costofrawmaterialsandconsumables8FA775_DefaultProfile@75f5fd58</td></tr>
+<tr>
+<td title='tests.Costofrawmaterialsandconsumables9FA775_DefaultProfile.GoToUrlAssertUrl()'><b>GoToUrlAssertUrl</b><br>Test class: tests.Costofrawmaterialsandconsumables9FA775_DefaultProfile</td>
+<td></td>
+<td>118</td>
+<td>tests.Costofrawmaterialsandconsumables9FA775_DefaultProfile@5b07730f</td></tr>
+<tr>
+<td title='tests.Staffcosts3FA775_DefaultProfile.GoToUrlAssertUrl()'><b>GoToUrlAssertUrl</b><br>Test class: tests.Staffcosts3FA775_DefaultProfile</td>
+<td></td>
+<td>125</td>
+<td>tests.Staffcosts3FA775_DefaultProfile@5b40ceb</td></tr>
+<tr>
+<td title='tests.Costofrawmaterialsandconsumables4FA775_DefaultProfile.GoToUrlAssertUrl()'><b>GoToUrlAssertUrl</b><br>Test class: tests.Costofrawmaterialsandconsumables4FA775_DefaultProfile</td>
+<td></td>
+<td>125</td>
+<td>tests.Costofrawmaterialsandconsumables4FA775_DefaultProfile@388ba540</td></tr>
+<tr>
+<td title='tests.Staffcosts5FA775_DefaultProfile.GoToUrlAssertUrl()'><b>GoToUrlAssertUrl</b><br>Test class: tests.Staffcosts5FA775_DefaultProfile</td>
+<td></td>
+<td>117</td>
+<td>tests.Staffcosts5FA775_DefaultProfile@11eadcba</td></tr>
+<tr>
+<td title='tests.Staffcosts6FA775_DefaultProfile.GoToUrlAssertUrl()'><b>GoToUrlAssertUrl</b><br>Test class: tests.Staffcosts6FA775_DefaultProfile</td>
+<td></td>
+<td>127</td>
+<td>tests.Staffcosts6FA775_DefaultProfile@f79a760</td></tr>
+<tr>
+<td title='tests.Staffcosts7FA775_DefaultProfile.GoToUrlAssertUrl()'><b>GoToUrlAssertUrl</b><br>Test class: tests.Staffcosts7FA775_DefaultProfile</td>
+<td></td>
+<td>110</td>
+<td>tests.Staffcosts7FA775_DefaultProfile@1e1d3956</td></tr>
+<tr>
+<td title='tests.Staffcosts8FA775_DefaultProfile.GoToUrlAssertUrl()'><b>GoToUrlAssertUrl</b><br>Test class: tests.Staffcosts8FA775_DefaultProfile</td>
+<td></td>
+<td>113</td>
+<td>tests.Staffcosts8FA775_DefaultProfile@50fe837a</td></tr>
+<tr>
+<td title='tests.Staffcosts9FA775_DefaultProfile.GoToUrlAssertUrl()'><b>GoToUrlAssertUrl</b><br>Test class: tests.Staffcosts9FA775_DefaultProfile</td>
+<td></td>
+<td>110</td>
+<td>tests.Staffcosts9FA775_DefaultProfile@4264b240</td></tr>
+<tr>
+<td title='tests.Staffcosts10FA775_DefaultProfile.GoToUrlAssertUrl()'><b>GoToUrlAssertUrl</b><br>Test class: tests.Staffcosts10FA775_DefaultProfile</td>
+<td></td>
+<td>121</td>
+<td>tests.Staffcosts10FA775_DefaultProfile@1bb1fde8</td></tr>
+<tr>
+<td title='tests.TurnoverFA775_DefaultProfile.GoToUrlAssertUrlClickIncomeStatement()'><b>GoToUrlAssertUrlClickIncomeStatement</b><br>Test class: tests.TurnoverFA775_DefaultProfile</td>
+<td></td>
+<td>91</td>
+<td>tests.TurnoverFA775_DefaultProfile@5553d0f5</td></tr>
+<tr>
+<td title='tests.Turnover2FA775_DefaultProfile.GoToUrlAssertUrlClickIncomeStatement()'><b>GoToUrlAssertUrlClickIncomeStatement</b><br>Test class: tests.Turnover2FA775_DefaultProfile</td>
+<td></td>
+<td>76</td>
+<td>tests.Turnover2FA775_DefaultProfile@6c25e6c4</td></tr>
+<tr>
+<td title='tests.StaffcostsFA775_DefaultProfile.GoToUrlAssertUrlClickStaffCosts()'><b>GoToUrlAssertUrlClickStaffCosts</b><br>Test class: tests.StaffcostsFA775_DefaultProfile</td>
+<td></td>
+<td>103</td>
+<td>tests.StaffcostsFA775_DefaultProfile@7a791b66</td></tr>
+<tr>
+<td title='tests.Staffcosts1FA775_DefaultProfile.GoToUrlAssertUrlClickStaffCosts()'><b>GoToUrlAssertUrlClickStaffCosts</b><br>Test class: tests.Staffcosts1FA775_DefaultProfile</td>
+<td></td>
+<td>112</td>
+<td>tests.Staffcosts1FA775_DefaultProfile@192d74fb</td></tr>
+<tr>
+<td title='tests.Staffcosts2FA775_DefaultProfile.GoToUrlAssertUrlClickStaffCosts()'><b>GoToUrlAssertUrlClickStaffCosts</b><br>Test class: tests.Staffcosts2FA775_DefaultProfile</td>
+<td></td>
+<td>117</td>
+<td>tests.Staffcosts2FA775_DefaultProfile@3b220bcb</td></tr>
+<tr>
+<td title='tests.FA775Newclient_DefaultProfile.GoToUrlAssertUrlPositiveEnterUsernamePositiveEnterPasswordClickLoginButtonPositiveEnterAgentNa()'><b>GoToUrlAssertUrlPositiveEnterUsernamePositiveEnterPasswordClickLoginButtonPositiveEnterAgentNa</b><br>Test class: tests.FA775Newclient_DefaultProfile</td>
+<td></td>
+<td>77</td>
+<td>tests.FA775Newclient_DefaultProfile@3a1dd365</td></tr>
+<tr>
+<td title='tests.FA7751_DefaultProfile.GoToUrlAssertUrlPositiveEnterUsernamePositiveEnterPasswordClickLoginButtonPositiveEnterAgentNa1()'><b>GoToUrlAssertUrlPositiveEnterUsernamePositiveEnterPasswordClickLoginButtonPositiveEnterAgentNa1</b><br>Test class: tests.FA7751_DefaultProfile</td>
+<td></td>
+<td>86</td>
+<td>tests.FA7751_DefaultProfile@4566d049</td></tr>
+<tr>
+<td title='tests.FA775Newclient_DefaultProfile.GoToUrlAssertUrlPositiveEnterUsernamePositiveEnterPasswordClickLoginButtonPositiveEnterAgentNa1()'><b>GoToUrlAssertUrlPositiveEnterUsernamePositiveEnterPasswordClickLoginButtonPositiveEnterAgentNa1</b><br>Test class: tests.FA775Newclient_DefaultProfile</td>
+<td></td>
+<td>89</td>
+<td>tests.FA775Newclient_DefaultProfile@3a1dd365</td></tr>
+<tr>
+<td title='tests.FA775Newclient_DefaultProfile.GoToUrlAssertUrlPositiveEnterUsernamePositiveEnterPasswordClickLoginButtonPositiveEnterAgentNa11()'><b>GoToUrlAssertUrlPositiveEnterUsernamePositiveEnterPasswordClickLoginButtonPositiveEnterAgentNa11</b><br>Test class: tests.FA775Newclient_DefaultProfile</td>
+<td></td>
+<td>75</td>
+<td>tests.FA775Newclient_DefaultProfile@3a1dd365</td></tr>
+<tr>
+<td title='tests.FA775Newclient_DefaultProfile.GoToUrlAssertUrlPositiveEnterUsernamePositiveEnterPasswordClickLoginButtonPositiveEnterAgentNa111()'><b>GoToUrlAssertUrlPositiveEnterUsernamePositiveEnterPasswordClickLoginButtonPositiveEnterAgentNa111</b><br>Test class: tests.FA775Newclient_DefaultProfile</td>
+<td></td>
+<td>72</td>
+<td>tests.FA775Newclient_DefaultProfile@3a1dd365</td></tr>
+<tr>
+<td title='tests.FA775Newclient_DefaultProfile.GoToUrlAssertUrlPositiveEnterUsernamePositiveEnterPasswordClickLoginButtonPositiveEnterAgentNa1111()'><b>GoToUrlAssertUrlPositiveEnterUsernamePositiveEnterPasswordClickLoginButtonPositiveEnterAgentNa1111</b><br>Test class: tests.FA775Newclient_DefaultProfile</td>
+<td></td>
+<td>72</td>
+<td>tests.FA775Newclient_DefaultProfile@3a1dd365</td></tr>
+<tr>
+<td title='tests.FA775Newclient_DefaultProfile.GoToUrlAssertUrlPositiveEnterUsernamePositiveEnterPasswordClickLoginButtonPositiveEnterAgentNa11111()'><b>GoToUrlAssertUrlPositiveEnterUsernamePositiveEnterPasswordClickLoginButtonPositiveEnterAgentNa11111</b><br>Test class: tests.FA775Newclient_DefaultProfile</td>
+<td></td>
+<td>75</td>
+<td>tests.FA775Newclient_DefaultProfile@3a1dd365</td></tr>
+<tr>
+<td title='tests.FA775Newclient_DefaultProfile.GoToUrlAssertUrlPositiveEnterUsernamePositiveEnterPasswordClickLoginButtonPositiveEnterAgentNa111111()'><b>GoToUrlAssertUrlPositiveEnterUsernamePositiveEnterPasswordClickLoginButtonPositiveEnterAgentNa111111</b><br>Test class: tests.FA775Newclient_DefaultProfile</td>
+<td></td>
+<td>88</td>
+<td>tests.FA775Newclient_DefaultProfile@3a1dd365</td></tr>
+<tr>
+<td title='tests.FA775Newclient_DefaultProfile.GoToUrlAssertUrlPositiveEnterUsernamePositiveEnterPasswordClickLoginButtonPositiveEnterAgentNa1111111()'><b>GoToUrlAssertUrlPositiveEnterUsernamePositiveEnterPasswordClickLoginButtonPositiveEnterAgentNa1111111</b><br>Test class: tests.FA775Newclient_DefaultProfile</td>
+<td></td>
+<td>75</td>
+<td>tests.FA775Newclient_DefaultProfile@3a1dd365</td></tr>
+<tr>
+<td title='tests.FA7751_DefaultProfile.GoToUrlAssertUrlPositiveEnterUsernamePositiveEnterPasswordClickLoginButtonPositiveEnterAgentNa2()'><b>GoToUrlAssertUrlPositiveEnterUsernamePositiveEnterPasswordClickLoginButtonPositiveEnterAgentNa2</b><br>Test class: tests.FA7751_DefaultProfile</td>
+<td></td>
+<td>89</td>
+<td>tests.FA7751_DefaultProfile@4566d049</td></tr>
+<tr>
+<td title='tests.FA7751_DefaultProfile.GoToUrlAssertUrlPositiveEnterUsernamePositiveEnterPasswordClickLoginButtonPositiveEnterAgentNa3()'><b>GoToUrlAssertUrlPositiveEnterUsernamePositiveEnterPasswordClickLoginButtonPositiveEnterAgentNa3</b><br>Test class: tests.FA7751_DefaultProfile</td>
+<td></td>
+<td>91</td>
+<td>tests.FA7751_DefaultProfile@4566d049</td></tr>
+<tr>
+<td title='tests.FA7751_DefaultProfile.GoToUrlAssertUrlPositiveEnterUsernamePositiveEnterPasswordClickLoginButtonPositiveEnterAgentNa4()'><b>GoToUrlAssertUrlPositiveEnterUsernamePositiveEnterPasswordClickLoginButtonPositiveEnterAgentNa4</b><br>Test class: tests.FA7751_DefaultProfile</td>
+<td></td>
+<td>67</td>
+<td>tests.FA7751_DefaultProfile@4566d049</td></tr>
+</table><p>
+</body>
+</html>

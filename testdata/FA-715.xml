@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+ 
+
+<suite name="Suitfile">
+
+<listeners>
+ <listener class-name="reports.TestNGListener"/>
+<listener class-name="reports.ExtentTestListener" />
+</listeners>
+
+<test name= "VerifylockandunlockbuttonstatusofSubmitscreenFA7151_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.VerifylockandunlockbuttonstatusofSubmitscreenFA7151_DefaultProfile"/>
+   			</classes>
+  
+    </test>
+
+<test name= "VerifyCTAdjustmentsscreenisnoteditableafterlockingtheperiodFA7152_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.VerifyCTAdjustmentsscreenisnoteditableafterlockingtheperiodFA7152_DefaultProfile"/>
+   			</classes>
+  
+    </test>
+
+<test name= "VerifyCTAdjustmentsiseditableafterunlockingtheperiodFA7153_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.VerifyCTAdjustmentsiseditableafterunlockingtheperiodFA7153_DefaultProfile"/>
+   			</classes>
+  
+    </test>
+ 
+ <test name= "VerifyRDexpenditureNCTA046inProfitlossAdjustmentsisnoteditableFA7154_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.VerifyRDexpenditureNCTA046inProfitlossAdjustmentsisnoteditableFA7154_DefaultProfile"/>
+   			</classes>
+  
+    </test>
+  
+  <test name= "VerifyRDenhancedallowanceNCTA045inProfitlossAdjustmentsisnoteditableFA7155_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.VerifyRDenhancedallowanceNCTA045inProfitlossAdjustmentsisnoteditableFA7155_DefaultProfile"/>
+   			</classes>
+  
+    </test>
+    
+  <test name= "VerifyvalueisnotsavinginAssetDisposalNCTA060inProfitlossAdjustmentsFA7156_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.VerifyvalueisnotsavinginAssetDisposalNCTA060inProfitlossAdjustmentsFA7156_DefaultProfile"/>
+   			</classes>
+  
+    </test>
+    
+     <test name= "VerifyEditbuttonmustnotbeworkingforAboutthisreturnincasereturnislockedFA7157_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.VerifyEditbuttonmustnotbeworkingforAboutthisreturnincasereturnislockedFA7157_DefaultProfile"/>
+   			</classes>
+  
+    </test> 
+    
+     <test name= "VerifyAboutthisreturniseditableafterunlockingthereturnFA7158_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.VerifyAboutthisreturniseditableafterunlockingthereturnFA7158_DefaultProfile"/>
+   			</classes>
+  
+    </test> 
+    
+     <test name= "VerifyEditbuttonmustnotbeworkingforTaxCalculationincasereturnislockedFA7159_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.VerifyEditbuttonmustnotbeworkingforTaxCalculationincasereturnislockedFA7159_DefaultProfile"/>
+   			</classes>
+  
+    </test>   
+    
+     <test name= "VerifyTaxCalculationiseditableafterunlockingthereturnFA71510_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.VerifyTaxCalculationiseditableafterunlockingthereturnFA71510_DefaultProfile"/>
+   			</classes>
+  
+    </test>
+    
+    <test name= "VerifyEditbuttonmustnotbeworkingforRDandCapitalAllowancesFA71511_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.VerifyEditbuttonmustnotbeworkingforRDandCapitalAllowancesFA71511_DefaultProfile"/>
+   			</classes>
+  
+    </test>    
+    
+     <test name= "VerifyRDandCapitalAllowanceiseditableafterunlockingthereturnFA71512_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.VerifyRDandCapitalAllowanceiseditableafterunlockingthereturnFA71512_DefaultProfile"/>
+   			</classes>
+  
+    </test>  
+    
+    <test name= "VerifyEditbuttonmustnotbeworkingforLossesdeficitsandexcessamountsFA71513_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.VerifyEditbuttonmustnotbeworkingforLossesdeficitsandexcessamountsFA71513_DefaultProfile"/>
+   			</classes>
+  
+    </test>
+    
+     <test name= "VerifyLossesdeficitsandexcessamountsiseditableafterunlockingthereturnFA71514_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.VerifyLossesdeficitsandexcessamountsiseditableafterunlockingthereturnFA71514_DefaultProfile"/>
+   			</classes>
+  
+    </test>
+    
+     <test name= "VerifyEditbuttonmustnotbeworkingforOverpaymentsandrepaymentsincasereturnFA71515_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.VerifyEditbuttonmustnotbeworkingforOverpaymentsandrepaymentsincasereturnFA71515_DefaultProfile"/>
+   			</classes>
+  
+    </test>
+    
+     <test name= "VerifyOverpaymentsandrepaymentsiseditableafterunlockingthereturnFA71516_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.VerifyOverpaymentsandrepaymentsiseditableafterunlockingthereturnFA71516_DefaultProfile"/>
+   			</classes>
+  
+    </test>
+    
+     <test name= "VerifyEditbuttonmustnotbeworkinginFormCT600AifperiodislockedFA71517_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.VerifyEditbuttonmustnotbeworkinginFormCT600AifperiodislockedFA71517_DefaultProfile"/>
+   			</classes>
+  
+    </test>
+    
+    <test name= "VerifyFormCT600AiseditableafterunlockingthereturnFA71518_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.VerifyFormCT600AiseditableafterunlockingthereturnFA71518_DefaultProfile"/>
+   			</classes>
+  
+    </test>
+    
+    <test name= "VerifyEditbuttonmustnotbeworkinginCTOtherAdjustmentsifperiodislockedFA71519_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.VerifyEditbuttonmustnotbeworkinginCTOtherAdjustmentsifperiodislockedFA71519_DefaultProfile"/>
+   			</classes>
+  
+    </test>
+ 
+ 
+  														
+</suite>
+
+	

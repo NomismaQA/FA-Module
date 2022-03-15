@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+ <suite name="Suite" verbose="10">
+<listeners>
+ <listener class-name="reports.TestNGListener"/>
+<listener class-name="reports.ExtentTestListener" />
+</listeners>
+
+
+ 	<test name= "Verifyregitrationno" enabled="false">  
+  		 
+ 			<classes> 
+    				<class name= "tests.Verifyregitrationno"/>
+   			</classes> 
+  			
+ 	</test>
+ 	<test name= "Verifycountryname2_DefaultProfile" enabled="false">  
+  		 
+ 			<classes> 
+    				<class name= "tests.Verifycountryname2_DefaultProfile"/>
+   			</classes> 
+  			
+ 	</test>
+ 		<test name= "Verifytitlereport_DefaultProfile" enabled="false">  
+  		 
+ 			<classes> 
+    				<class name= "tests.Verifytitlereport_DefaultProfile"/>
+   			</classes> 
+  			
+ 	</test>
+ 
+ 		<test name= "Verifydynamicfooter_DefaultProfile" enabled="false">  
+  		 
+ 			<classes> 
+    				<class name= "tests.Addnewclient1201_DefaultProfile"/>
+   			</classes> 
+  			
+ 	</test>
+ 
+ 
+ 		<test name= "Verifyheaderappearance_DefaultProfile" enabled="false">  
+  
+ 			<classes> 
+    				<class name= "tests.Verifyheaderappearance_DefaultProfile"/>
+   			</classes> 
+  			
+ 	</test>
+
+ 
+ 		<tests name= "Verifyrenamedone_DefaultProfile" enabled="false">  
+  		 
+ 			<classes> 
+    				<class name= "tests.Verifyrenamedone_DefaultProfile"/>
+   			</classes> 
+  		
+</tests>
+ 
+ 		<test name= "Verifydynamicfooter_DefaultProfile" enabled="false">  
+  		 
+ 			<classes> 
+    				<class name= "tests.Verifydynamicfooter_DefaultProfile"/>
+   			
+   			</classes> 	
+   			</test>
+   			<tests name= "Verifyregistrationnoonpartnership_DefaultProfile" enabled="false">  
+  		 
+ 			<classes>
+    				<class name= "tests.Verifyregistrationnoonpartnership_DefaultProfile"/>
+   			</classes> 	
+ </tests>
+ 	 
+  	
+
+ </suite>
+	

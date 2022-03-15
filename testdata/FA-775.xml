@@ -1,0 +1,1289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+ 
+
+<suite name="Suitfile">
+
+<listeners>
+ <listener class-name="reports.TestNGListener"/>
+<listener class-name="reports.ExtentTestListener" />
+</listeners>
+
+<test name= "FA7751_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.FA7751_DefaultProfile"/>
+   			</classes>
+  
+    </test>
+
+<test name= "FA775Newclient_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.FA775Newclient_DefaultProfile"/>
+   			</classes>
+  
+    </test>
+ 
+ <test name= "FA775newclientmodule_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.FA775newclientmodule_DefaultProfile"/>
+   			</classes>
+  
+    </test>
+ 
+ <test name= "TurnoverFA775_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.TurnoverFA775_DefaultProfile"/>
+   			</classes>
+  
+    </test>
+    
+    <test name= "Turnover2FA775_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.Turnover2FA775_DefaultProfile"/>
+   			</classes>
+  
+    </test>
+    
+    <test name= "Turnover3FA775_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.Turnover3FA775_DefaultProfile"/>
+   			</classes>
+  
+    </test>
+
+<test name= "Turnover4FA775_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.Turnover4FA775_DefaultProfile"/>
+   			</classes>
+  
+    </test>
+    
+<test name= "Turnover5FA775_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.Turnover5FA775_DefaultProfile"/>
+   			</classes>
+  
+    </test>
+
+<test name= "CostofSalesFA775_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.CostofSalesFA775_DefaultProfile"/>
+   			</classes>
+  
+    </test>
+ 
+ <test name= "CostofSales2FA775_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.CostofSales2FA775_DefaultProfile"/>
+   			</classes>
+    </test>
+ 
+ <test name= "CostofSales3FA775_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.CostofSales3FA775_DefaultProfile"/>
+   			</classes>
+    </test>
+ 
+ <test name= "CostofSales4FA775_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.CostofSales4FA775_DefaultProfile"/>
+   			</classes>
+    </test>
+ 
+ <test name= "CostofSales5FA775_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.CostofSales5FA775_DefaultProfile"/>
+   			</classes>
+    </test>
+ 
+<test name= "CostofSales6FA775_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.CostofSales6FA775_DefaultProfile"/>
+   			</classes>
+    </test>
+
+<test name= "CostofSales7FA775_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.CostofSales7FA775_DefaultProfile"/>
+   			</classes>
+    </test>
+
+<test name= "CostofSales8FA775_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.CostofSales8FA775_DefaultProfile"/>
+   			</classes>
+    </test>
+ 
+ <test name= "CostofSales9FA775_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.CostofSales9FA775_DefaultProfile"/>
+   			</classes>
+    </test>
+  
+<test name= "CostofSales10FA775_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.CostofSales10FA775_DefaultProfile"/>
+   			</classes>
+    </test>
+
+<test name= "CostofSales11FA775_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.CostofSales11FA775_DefaultProfile"/>
+   			</classes>
+    </test>
+
+<test name= "CostofSales12FA775_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.CostofSales12FA775_DefaultProfile"/>
+   			</classes>
+    </test>
+
+<test name= "CostofrawmaterialsandconsumablesFA775_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.CostofrawmaterialsandconsumablesFA775_DefaultProfile"/>
+   			</classes>
+    </test>
+
+<test name= "Costofrawmaterialsandconsumables1FA775_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.Costofrawmaterialsandconsumables1FA775_DefaultProfile"/>
+   			</classes>
+    </test>
+
+<test name= "Costofrawmaterialsandconsumables2FA775_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.Costofrawmaterialsandconsumables2FA775_DefaultProfile"/>
+   			</classes>
+    </test>  
+    
+<test name= "Costofrawmaterialsandconsumables3FA775_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.Costofrawmaterialsandconsumables3FA775_DefaultProfile"/>
+   			</classes>
+    </test>
+
+<test name= "Costofrawmaterialsandconsumables4FA775_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.Costofrawmaterialsandconsumables4FA775_DefaultProfile"/>
+   			</classes>
+    </test>
+
+<test name= "Costofrawmaterialsandconsumables5FA775_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.Costofrawmaterialsandconsumables5FA775_DefaultProfile"/>
+   			</classes>
+    </test>
+
+<test name= "Costofrawmaterialsandconsumables6FA775_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.Costofrawmaterialsandconsumables6FA775_DefaultProfile"/>
+   			</classes>
+    </test>
+ 
+<test name= "Costofrawmaterialsandconsumables7FA775_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.Costofrawmaterialsandconsumables7FA775_DefaultProfile"/>
+   			</classes>
+    </test>
+
+<test name= "Costofrawmaterialsandconsumables8FA775_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.Costofrawmaterialsandconsumables8FA775_DefaultProfile"/>
+   			</classes>
+    </test>
+
+<test name= "Costofrawmaterialsandconsumables9FA775_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.Costofrawmaterialsandconsumables9FA775_DefaultProfile"/>
+   			</classes>
+    </test>
+
+<test name= "StaffcostsFA775_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.StaffcostsFA775_DefaultProfile"/>
+   			</classes>
+    </test>
+
+<test name= "Staffcosts1FA775_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.Staffcosts1FA775_DefaultProfile"/>
+   			</classes>
+    </test>
+
+<test name= "Staffcosts2FA775_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.Staffcosts2FA775_DefaultProfile"/>
+   			</classes>
+    </test>
+
+<test name= "Staffcosts3FA775_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.Staffcosts3FA775_DefaultProfile"/>
+   			</classes>
+    </test>
+    
+<test name= "Staffcosts4FA775_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.Costofrawmaterialsandconsumables4FA775_DefaultProfile"/>
+   			</classes>
+    </test>
+
+<test name= "Staffcosts5FA775_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.Staffcosts5FA775_DefaultProfile"/>
+   			</classes>
+    </test>
+    
+<test name= "Staffcosts6FA775_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.Staffcosts6FA775_DefaultProfile"/>
+   			</classes>
+    </test>
+
+<test name= "Staffcosts7FA775_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.Staffcosts7FA775_DefaultProfile"/>
+   			</classes>
+    </test>
+
+<test name= "Staffcosts8FA775_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.Staffcosts8FA775_DefaultProfile"/>
+   			</classes>
+    </test>
+
+<test name= "Staffcosts9FA775_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.Staffcosts9FA775_DefaultProfile"/>
+   			</classes>
+    </test>
+
+<test name= "Staffcosts10FA775_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.Staffcosts10FA775_DefaultProfile"/>
+   			</classes>
+    </test>
+
+<test name= "Staffcosts11FA775_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.Staffcosts11FA775_DefaultProfile"/>
+   			</classes>
+    </test>
+
+<test name= "DepreciationandotheramountswrittenoffassetsFA775_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.DepreciationandotheramountswrittenoffassetsFA775_DefaultProfile"/>
+   			</classes>
+    </test>
+
+<test name= "Depreciationandotheramountswrittenoffassets1FA775_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.Depreciationandotheramountswrittenoffassets1FA775_DefaultProfile"/>
+   			</classes>
+    </test>
+
+<test name= "Depreciationandotheramountswrittenoffassets2FA775_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.Depreciationandotheramountswrittenoffassets2FA775_DefaultProfile"/>
+   			</classes>
+    </test>
+
+<test name= "Depreciationandotheramountswrittenoffassets3FA775_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.Depreciationandotheramountswrittenoffassets3FA775_DefaultProfile"/>
+   			</classes>
+    </test>
+
+<test name= "Depreciationandotheramountswrittenoffassets4FA775_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.Depreciationandotheramountswrittenoffassets4FA775_DefaultProfile"/>
+   			</classes>
+    </test>
+
+<test name= "Depreciationandotheramountswrittenoffassets5FA775_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.Depreciationandotheramountswrittenoffassets5FA775_DefaultProfile"/>
+   			</classes>
+    </test>
+
+<test name= "Depreciationandotheramountswrittenoffassets6FA775_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.Depreciationandotheramountswrittenoffassets6FA775_DefaultProfile"/>
+   			</classes>
+    </test>
+
+<test name= "Depreciationandotheramountswrittenoffassets7FA775_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.Depreciationandotheramountswrittenoffassets7FA775_DefaultProfile"/>
+   			</classes>
+    </test>
+    
+<test name= "Othercharges_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.Othercharges_DefaultProfile"/>
+   			</classes>
+    </test>
+
+<test name= "Othercharges1FA775_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.Othercharges1FA775_DefaultProfile"/>
+   			</classes>
+    </test>
+
+<test name= "Othercharges2FA775_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.Othercharges2FA775_DefaultProfile"/>
+   			</classes>
+    </test>
+
+<test name= "Othercharges3FA775_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.Othercharges3FA775_DefaultProfile"/>
+   			</classes>
+    </test>
+
+<test name= "Othercharges4FA775_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.Othercharges4FA775_DefaultProfile"/>
+   			</classes>
+    </test>
+ 
+ <test name= "OtherchargesFA775_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.OtherchargesFA775_DefaultProfile"/>
+   			</classes>
+    </test>
+
+<test name= "Othercharges6FA775_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.Othercharges6FA775_DefaultProfile"/>
+   			</classes>
+    </test>
+
+<test name= "Othercharges7FA775_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.Othercharges7FA775_DefaultProfile"/>
+   			</classes>
+    </test>
+
+<test name= "Othercharges8FA775_DefaultProfile" enabled="false">  
+  		 
+ 			<classes> 
+    				<class name= "tests.Othercharges8FA775_DefaultProfile"/>
+   			</classes>
+    </test>
+
+<test name= "Othercharges8FA775_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.Othercharges8FA775_DefaultProfile"/>
+   			</classes>
+    </test>
+    
+<test name= "Othercharges9FA775_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.Othercharges9FA775_DefaultProfile"/>
+   			</classes>
+    </test>
+
+<test name= "Othercharges10FA775_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.Othercharges10FA775_DefaultProfile"/>
+   			</classes>
+    </test>
+
+<test name= "Othercharges11FA775_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.Othercharges11FA775_DefaultProfile"/>
+   			</classes>
+    </test>
+
+<test name= "Othercharges12FA775_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.Othercharges12FA775_DefaultProfile"/>
+   			</classes>
+    </test>
+
+<test name= "Othercharges13FA775_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.Othercharges13FA775_DefaultProfile"/>
+   			</classes>
+    </test>
+
+<test name= "Othercharges14FA775_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.Othercharges14FA775_DefaultProfile"/>
+   			</classes>
+    </test>
+
+<test name= "Othercharges15FA775_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.Othercharges15FA775_DefaultProfile"/>
+   			</classes>
+    </test>
+
+<test name= "Othercharges16FA775_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.Othercharges16FA775_DefaultProfile"/>
+   			</classes>
+    </test>
+
+<test name= "Othercharges17FA775_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.Othercharges17FA775_DefaultProfile"/>
+   			</classes>
+    </test>
+
+<test name= "Othercharges18FA775_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.Othercharges18FA775_DefaultProfile"/>
+   			</classes>
+    </test>
+
+<test name= "Othercharges19FA775_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.Othercharges19FA775_DefaultProfile"/>
+   			</classes>
+    </test>
+
+<test name= "Othercharges20FA775_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.Othercharges20FA775_DefaultProfile"/>
+   			</classes>
+    </test>
+
+<test name= "Othercharges21FA775_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.Othercharges21FA775_DefaultProfile"/>
+   			</classes>
+    </test>
+
+<test name= "Othercharges22FA775_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.Othercharges22FA775_DefaultProfile"/>
+   			</classes>
+    </test>
+
+<test name= "Othercharges23FA775_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.Othercharges23FA775_DefaultProfile"/>
+   			</classes>
+    </test>
+
+<test name= "Othercharges24FA775_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.Othercharges24FA775_DefaultProfile"/>
+   			</classes>
+    </test>
+
+<test name= "Othercharges25FA775_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.Othercharges25FA775_DefaultProfile"/>
+   			</classes>
+    </test>
+
+<test name= "Othercharges26FA775_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.Othercharges26FA775_DefaultProfile"/>
+   			</classes>
+    </test>
+
+<test name= "Othercharges27FA775_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.Othercharges27FA775_DefaultProfile"/>
+   			</classes>
+    </test>
+
+<test name= "Othercharges28FA775_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.Othercharges28FA775_DefaultProfile"/>
+   			</classes>
+    </test>
+
+<test name= "Othercharges29FA775_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.Othercharges29FA775_DefaultProfile"/>
+   			</classes>
+    </test>
+
+<test name= "Othercharges30FA775_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.Othercharges30FA775_DefaultProfile"/>
+   			</classes>
+    </test>
+
+<test name= "Othercharges31FA775_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.Othercharges31FA775_DefaultProfile"/>
+   			</classes>
+    </test>
+
+<test name= "Othercharges32FA775_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.Othercharges32FA775_DefaultProfile"/>
+   			</classes>
+    </test>
+
+<test name= "Othercharges33FA775_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.Othercharges33FA775_DefaultProfile"/>
+   			</classes>
+    </test>
+
+<test name= "Othercharges34FA775_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.Othercharges34FA775_DefaultProfile"/>
+   			</classes>
+    </test>
+
+<test name= "Othercharges35FA775_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.Othercharges35FA775_DefaultProfile"/>
+   			</classes>
+    </test>
+
+<test name= "Othercharges36FA775_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.Othercharges36FA775_DefaultProfile"/>
+   			</classes>
+    </test>
+
+<test name= "Othercharges37FA775_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.Othercharges37FA775_DefaultProfile"/>
+   			</classes>
+    </test>
+
+<test name= "Othercharges38FA775_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.Othercharges38FA775_DefaultProfile"/>
+   			</classes>
+    </test>
+
+<test name= "Othercharges39FA775_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.Othercharges39FA775_DefaultProfile"/>
+   			</classes>
+    </test>
+
+<test name= "Othercharges40FA775_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.Othercharges40FA775_DefaultProfile"/>
+   			</classes>
+    </test>
+
+<test name= "Othercharges41FA775_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.Othercharges41FA775_DefaultProfile"/>
+   			</classes>
+    </test>
+
+<test name= "Othercharges42FA775_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.Othercharges42FA775_DefaultProfile"/>
+   			</classes>
+    </test>
+
+<test name= "Othercharges43FA775_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.Othercharges43FA775_DefaultProfile"/>
+   			</classes>
+    </test>
+
+<test name= "Othercharges44FA775_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.Othercharges44FA775_DefaultProfile"/>
+   			</classes>
+    </test>
+
+<test name= "Othercharges45FA775_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.Othercharges45FA775_DefaultProfile"/>
+   			</classes>
+    </test>
+
+<test name= "Othercharges46FA775_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.Othercharges46FA775_DefaultProfile"/>
+   			</classes>
+    </test>
+
+<test name= "Othercharges47FA775_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.Othercharges47FA775_DefaultProfile"/>
+   			</classes>
+    </test>
+
+<test name= "Othercharges48FA775_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.Othercharges48FA775_DefaultProfile"/>
+   			</classes>
+    </test>
+
+<test name= "Othercharges49FA775_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.Othercharges49FA775_DefaultProfile"/>
+   			</classes>
+    </test>
+
+<test name= "Othercharges50FA775_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.Othercharges50FA775_DefaultProfile"/>
+   			</classes>
+    </test>
+
+<test name= "Othercharges51FA775_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.Othercharges51FA775_DefaultProfile"/>
+   			</classes>
+    </test>
+
+<test name= "TaxFA775_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.TaxFA775_DefaultProfile"/>
+   			</classes>
+    </test>
+    
+<test name= "Tax1FA775_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.Tax1FA775_DefaultProfile"/>
+   			</classes>
+    </test>
+    
+<test name= "Tax2FA775_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.Tax2FA775_DefaultProfile"/>
+   			</classes>
+    </test>
+
+<test name= "Tax3FA775_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.Tax3FA775_DefaultProfile"/>
+   			</classes>
+    </test>
+
+<test name= "Tax4FA775_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.Tax4FA775_DefaultProfile"/>
+   			</classes>
+    </test>
+
+<test name= "Tax5FA775_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.Tax5FA775_DefaultProfile"/>
+   			</classes>
+    </test>
+    
+<test name= "Tax6FA775_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.Tax6FA775_DefaultProfile"/>
+   			</classes>
+    </test>
+
+<test name= "Tax7FA775_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.Tax7FA775_DefaultProfile"/>
+   			</classes>
+    </test>
+
+<test name= "Tax8FA775_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.Tax8FA775_DefaultProfile"/>
+   			</classes>
+    </test>
+<test name= "Tax9FA775_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.Tax9FA775_DefaultProfile"/>
+   			</classes>
+    </test>
+    
+<test name= "Tax10FA775_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.Tax10FA775_DefaultProfile"/>
+   			</classes>
+    </test>
+
+<test name= "Tax11FA775_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.Tax11FA775_DefaultProfile"/>
+   			</classes>
+    </test>
+
+<test name= "Tax12FA775_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.Tax12FA775_DefaultProfile"/>
+   			</classes>
+    </test>
+
+<test name= "Tax13FA775_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.Tax13FA775_DefaultProfile"/>
+   			</classes>
+    </test>
+
+<test name= "Tax14FA775_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.Tax14FA775_DefaultProfile"/>
+   			</classes>
+    </test>
+
+<test name= "Tax15FA775_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.Tax15FA775_DefaultProfile"/>
+   			</classes>
+    </test>
+
+<test name= "DetailedIncomeStatementTurnover_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.DetailedIncomeStatementTurnover_DefaultProfile"/>
+   			</classes>
+    </test>
+
+<test name= "DetailedIncomeStatementCostofrawmaterials_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.DetailedIncomeStatementCostofrawmaterials_DefaultProfile"/>
+   			</classes>
+    </test>
+<test name= "DetailedIncomeStatementCostofrawmaterials1_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.DetailedIncomeStatementCostofrawmaterials1_DefaultProfile"/>
+   			</classes>
+    </test>
+
+<test name= "DetailedIncomeStatementCostofrawmaterials2_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.DetailedIncomeStatementCostofrawmaterials2_DefaultProfile"/>
+   			</classes>
+    </test>
+
+<test name= "DetailedIncomeStatementCostofrawmaterials3_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.DetailedIncomeStatementCostofrawmaterials3_DefaultProfile"/>
+   			</classes>
+    </test>
+
+<test name= "DetailedIncomeStatementCostofrawmaterials4_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.DetailedIncomeStatementCostofrawmaterials4_DefaultProfile"/>
+   			</classes>
+    </test>
+
+<test name= "DetailedIncomeStatementCostofrawmaterials5_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.DetailedIncomeStatementCostofrawmaterials5_DefaultProfile"/>
+   			</classes>
+    </test>
+
+<test name= "DetailedIncomeStatementCostofrawmaterials6_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.DetailedIncomeStatementCostofrawmaterials6_DefaultProfile"/>
+   			</classes>
+    </test>
+
+<test name= "DetailedIncomeStatementCostofrawmaterials7_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.DetailedIncomeStatementCostofrawmaterials7_DefaultProfile"/>
+   			</classes>
+    </test>
+
+<test name= "DetailedIncomeStatementCostofrawmaterials8_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.DetailedIncomeStatementCostofrawmaterials8_DefaultProfile"/>
+   			</classes>
+    </test>
+
+<test name= "DetailedIncomeStatementCommision_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.DetailedIncomeStatementCommision_DefaultProfile"/>
+   			</classes>
+    </test>
+
+<test name= "DetailedIncomeStatementRentalIncome_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.DetailedIncomeStatementRentalIncome_DefaultProfile"/>
+   			</classes>
+    </test>
+    
+<test name= "DetailedIncomeStatementNonTaxableIncome_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.DetailedIncomeStatementNonTaxableIncome_DefaultProfile"/>
+   			</classes>
+    </test>
+
+<test name= "DetailedIncomeStatementSundryIncome_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.DetailedIncomeStatementSundryIncome_DefaultProfile"/>
+   			</classes>
+    </test>
+
+<test name= "DetailedIncomeStatementSellinganddistributionexpenses1_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.DetailedIncomeStatementSellinganddistributionexpenses1_DefaultProfile"/>
+   			</classes>
+    </test>
+
+<test name= "DetailedIncomeStatementSellinganddistributionexpenses2_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.DetailedIncomeStatementSellinganddistributionexpenses2_DefaultProfile"/>
+   			</classes>
+    </test>
+
+<test name= "DetailedIncomeStatementSellinganddistributionexpenses3_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.DetailedIncomeStatementSellinganddistributionexpenses3_DefaultProfile"/>
+   			</classes>
+    </test>
+
+<test name= "DetailedIncomeStatementSellinganddistributionexpenses4_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.DetailedIncomeStatementSellinganddistributionexpenses4_DefaultProfile"/>
+   			</classes>
+    </test>
+
+<test name= "DetailedIncomeStatementSellinganddistributionexpenses5_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.DetailedIncomeStatementSellinganddistributionexpenses5_DefaultProfile"/>
+   			</classes>
+    </test>
+
+<test name= "DetailedIncomeStatementSellinganddistributionexpenses6_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.DetailedIncomeStatementSellinganddistributionexpenses6_DefaultProfile"/>
+   			</classes>
+    </test>
+
+<test name= "DetailedIncomeStatementSellinganddistributionexpenses7_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.DetailedIncomeStatementSellinganddistributionexpenses7_DefaultProfile"/>
+   			</classes>
+    </test>
+
+<test name= "DetailedIncomeStatementSellinganddistributionexpenses8_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.DetailedIncomeStatementSellinganddistributionexpenses8_DefaultProfile"/>
+   			</classes>
+    </test>
+
+<test name= "DetailedIncomeStatementOthercharges_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.DetailedIncomeStatementOthercharges_DefaultProfile"/>
+   			</classes>
+    </test>
+
+<test name= "DetailedIncomeStatementOthercharges2_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.DetailedIncomeStatementOthercharges2_DefaultProfile"/>
+   			</classes>
+    </test>
+
+<test name= "DetailedIncomeStatementOthercharges3_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.DetailedIncomeStatementOthercharges3_DefaultProfile"/>
+   			</classes>
+    </test>
+
+<test name= "DetailedIncomeStatementOthercharges4_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.DetailedIncomeStatementOthercharges4_DefaultProfile"/>
+   			</classes>
+    </test>
+
+<test name= "DetailedIncomeStatementOthercharges5_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.DetailedIncomeStatementOthercharges5_DefaultProfile"/>
+   			</classes>
+    </test>
+
+<test name= "DetailedIncomeStatementOthercharges6_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.DetailedIncomeStatementOthercharges6_DefaultProfile"/>
+   			</classes>
+    </test>
+
+<test name= "DetailedIncomeStatementOthercharges7_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.DetailedIncomeStatementOthercharges7_DefaultProfile"/>
+   			</classes>
+    </test>
+
+<test name= "DetailedIncomeStatementOthercharges8_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.DetailedIncomeStatementOthercharges8_DefaultProfile"/>
+   			</classes>
+    </test>
+
+<test name= "DetailedIncomeStatementOthercharges9_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.DetailedIncomeStatementOthercharges9_DefaultProfile"/>
+   			</classes>
+    </test>
+
+<test name= "DetailedIncomeStatementOthercharges10_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.DetailedIncomeStatementOthercharges10_DefaultProfile"/>
+   			</classes>
+    </test>
+
+<test name= "DetailedIncomeStatementOthercharges11_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.DetailedIncomeStatementOthercharges11_DefaultProfile"/>
+   			</classes>
+    </test>
+
+<test name= "DetailedIncomeStatementOthercharges12_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.DetailedIncomeStatementOthercharges12_DefaultProfile"/>
+   			</classes>
+    </test>
+
+<test name= "DetailedIncomeStatementOthercharges13_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.DetailedIncomeStatementOthercharges13_DefaultProfile"/>
+   			</classes>
+    </test>
+
+<test name= "DetailedIncomeStatementOthercharges14_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.DetailedIncomeStatementOthercharges14_DefaultProfile"/>
+   			</classes>
+    </test>
+
+<test name= "DetailedIncomeStatementOthercharges15_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.DetailedIncomeStatementOthercharges15_DefaultProfile"/>
+   			</classes>
+    </test>
+
+<test name= "DetailedIncomeStatementOthercharges16_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.DetailedIncomeStatementOthercharges16_DefaultProfile"/>
+   			</classes>
+    </test>
+
+<test name= "DetailedIncomeStatementOthercharges17_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.DetailedIncomeStatementOthercharges17_DefaultProfile"/>
+   			</classes>
+    </test>
+
+<test name= "DetailedIncomeStatementOthercharges18_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.DetailedIncomeStatementOthercharges18_DefaultProfile"/>
+   			</classes>
+    </test>
+
+<test name= "DetailedIncomeStatementOthercharges19_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.DetailedIncomeStatementOthercharges19_DefaultProfile"/>
+   			</classes>
+    </test>
+
+<test name= "DetailedIncomeStatementOthercharges20_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.DetailedIncomeStatementOthercharges20_DefaultProfile"/>
+   			</classes>
+    </test>
+
+<test name= "DetailedIncomeStatementOthercharges21_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.DetailedIncomeStatementOthercharges21_DefaultProfile"/>
+   			</classes>
+    </test>
+
+<test name= "DetailedIncomeStatementOthercharges22_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.DetailedIncomeStatementOthercharges22_DefaultProfile"/>
+   			</classes>
+    </test>
+
+<test name= "DetailedIncomeStatementOthercharges23_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.DetailedIncomeStatementOthercharges23_DefaultProfile"/>
+   			</classes>
+    </test>
+
+<test name= "DetailedIncomeStatementOthercharges24_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.DetailedIncomeStatementOthercharges24_DefaultProfile"/>
+   			</classes>
+    </test>
+
+<test name= "DetailedIncomeStatementOthercharges25_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.DetailedIncomeStatementOthercharges25_DefaultProfile"/>
+   			</classes>
+    </test>
+
+<test name= "DetailedIncomeStatementOthercharges26_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.DetailedIncomeStatementOthercharges26_DefaultProfile"/>
+   			</classes>
+    </test>
+
+<test name= "DetailedIncomeStatementOthercharges27_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.DetailedIncomeStatementOthercharges27_DefaultProfile"/>
+   			</classes>
+    </test>
+
+<test name= "DetailedIncomeStatementOthercharges28_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.DetailedIncomeStatementOthercharges28_DefaultProfile"/>
+   			</classes>
+    </test>
+
+<test name= "DetailedIncomeStatementOthercharges29_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.DetailedIncomeStatementOthercharges29_DefaultProfile"/>
+   			</classes>
+    </test>
+
+<test name= "DetailedIncomeStatementOthercharges30_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.DetailedIncomeStatementOthercharges30_DefaultProfile"/>
+   			</classes>
+    </test>
+
+<test name= "DetailedIncomeStatementOthercharges31_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.DetailedIncomeStatementOthercharges31_DefaultProfile"/>
+   			</classes>
+    </test>
+
+<test name= "DetailedIncomeStatementOthercharges32_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.DetailedIncomeStatementOthercharges32_DefaultProfile"/>
+   			</classes>
+    </test>
+
+<test name= "DetailedIncomeStatementOthercharges33_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.DetailedIncomeStatementOthercharges33_DefaultProfile"/>
+   			</classes>
+    </test>
+
+<test name= "DetailedIncomeStatementOthercharges34_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.DetailedIncomeStatementOthercharges34_DefaultProfile"/>
+   			</classes>
+    </test>
+
+<test name= "DetailedIncomeStatementOthercharges35_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.DetailedIncomeStatementOthercharges35_DefaultProfile"/>
+   			</classes>
+    </test>
+
+<test name= "DetailedIncomeStatementOthercharges36_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.DetailedIncomeStatementOthercharges36_DefaultProfile"/>
+   			</classes>
+    </test>
+
+<test name= "DetailedIncomeStatementOthercharges37_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.DetailedIncomeStatementOthercharges37_DefaultProfile"/>
+   			</classes>
+    </test>
+
+<test name= "DetailedIncomeStatementOthercharges38_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.DetailedIncomeStatementOthercharges38_DefaultProfile"/>
+   			</classes>
+    </test>
+
+<test name= "DetailedIncomeStatementOthercharges39_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.DetailedIncomeStatementOthercharges39_DefaultProfile"/>
+   			</classes>
+    </test>
+
+<test name= "DetailedIncomeStatementOthercharges40_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.DetailedIncomeStatementOthercharges40_DefaultProfile"/>
+   			</classes>
+    </test>
+
+     														
+</suite>
+
+	

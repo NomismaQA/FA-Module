@@ -1,0 +1,321 @@
+LedgerCode,AccountName,Balance
+10,Development costs cost b/f,1
+11,Development costs additions,2
+12,Development costs disposals,-3
+13,Development costs revaluation,4
+14,Development costs transfers,-5
+15,Development costs amortisation b/f,-6
+16,Development costs amortisation disposals,7
+17,Development costs amortisation revaluation,-8
+18,Development costs amortisation transfers,9
+19,Development costs amortisation,-10
+20,Patents cost b/f,11
+21,Patents additions,12
+22,Patents disposals,-13
+23,Patents revaluation,14
+24,Patents transfers,-15
+25,Patents amortisation b/f,-16
+26,Patents amortisation disposals,17
+27,Patents amortisation revaluation,-18
+28,Patents amortisation transfers,19
+29,Patents amortisation,-20
+30,Purchased goodwill cost b/f,21
+31,Purchased goodwill additions,22
+32,Purchased goodwill disposals,-23
+33,Purchased goodwill revaluation,24
+34,Purchased goodwill transfers,-25
+35,Purchased goodwill amortisation b/f,-26
+36,Purchased goodwill amortisation disposals,27
+37,Purchased goodwill amortisation revaluation,-28
+38,Purchased goodwill amortisation transfers,29
+39,Purchased goodwill amortisation,-30
+40,Payments on account cost b/f,31
+41,Payments on account additions,32
+42,Payments on account disposals,-33
+43,Payments on account revaluation,34
+44,Payments on account transfers,-35
+45,Payments on account amortisation b/f,-36
+46,Payments on account amortisation disposals,37
+47,Payments on account amortisation revaluation,-38
+48,Payments on account amortisation transfers,39
+49,Payments on account amortisation,-40
+200,Investment properties cost b/f,41
+201,Investment properties additions,42
+202,Investment properties disposals,-43
+203,Investment properties revaluation,44
+204,Investment properties transfers,-45
+205,Investment properties depreciation b/f,-46
+206,Investment properties depreciation disposals,47
+207,Investment properties depreciation revaluation,-48
+208,Investment properties depreciation transfers,49
+209,Investment properties depreciation,-50
+210,Land and buildings cost b/f,51
+211,Land and buildings additions,52
+212,Land and buildings disposals,-53
+213,Land and buildings revaluation,54
+214,Land and buildings transfers,-55
+215,Land and buildings depreciation b/f,-56
+216,Land and buildings depreciation disposals,57
+217,Land and buildings depreciation revaluation,-58
+218,Land and buildings depreciation transfers,59
+219,Land and buildings depreciation,-60
+220,Long leasehold properties cost b/f,61
+221,Long leasehold properties additions,62
+222,Long leasehold properties disposals,-63
+223,Long leasehold properties revaluation,64
+224,Long leasehold properties transfers,-65
+225,Long leasehold properties depreciation b/f,-66
+226,Long leasehold properties depreciation disposals,67
+227,Long leasehold properties depreciation revaluation,-68
+228,Long leasehold properties depreciation transfers,69
+229,Long leasehold properties depreciation,-70
+230,Short leasehold properties cost b/f,71
+231,Short leasehold properties additions,72
+232,Short leasehold properties disposals,-73
+233,Short leasehold properties revaluation,74
+234,Short leasehold properties transfers,-75
+235,Short leasehold properties depreciation b/f,-76
+236,Short leasehold properties depreciation disposals,77
+237,Short leasehold properties depreciation revaluation,-78
+238,Short leasehold properties depreciation transfers,79
+239,Short leasehold properties depreciation,-80
+240,Plant and machinery cost b/f,81
+241,Plant and machinery additions,82
+242,Plant and machinery disposals,-83
+243,Plant and machinery revaluation,84
+244,Plant and machinery transfers,-85
+245,Plant and machinery depreciation b/f,-86
+246,Plant and machinery depreciation disposals,87
+247,Plant and machinery depreciation revaluation,-88
+248,Plant and machinery depreciation transfers,89
+249,Plant and machinery depreciation,-90
+250,Commercial vehicles cost b/f,91
+251,Commercial vehicles additions,92
+252,Commercial vehicles disposals,-93
+253,Commercial vehicles revaluation,94
+254,Commercial vehicles transfers,-95
+255,Commercial vehicles depreciation b/f,-96
+256,Commercial vehicles depreciation disposals,97
+257,Commercial vehicles depreciation revaluation,-98
+258,Commercial vehicles depreciation transfers,99
+259,Commercial vehicles depreciation,-100
+260,Fixtures and fittings cost b/f,101
+261,Fixtures and fittings additions,102
+262,Fixtures and fittings disposals,-103
+263,Fixtures and fittings revaluation,104
+264,Fixtures and fittings transfers,-105
+265,Fixtures and fittings depreciation b/f,-106
+266,Fixtures and fittings depreciation disposals,107
+267,Fixtures and fittings depreciation revaluation,-108
+268,Fixtures and fittings depreciation transfers,109
+269,Fixtures and fittings depreciation,-110
+270,Equipment cost b/f,111
+271,Equipment additions,112
+272,Equipment disposals,-113
+273,Equipment revaluation,114
+274,Equipment transfers,-115
+275,Equipment depreciation b/f,116
+276,Equipment depreciation disposals,117
+277,Equipment depreciation revaluation,-118
+278,Equipment depreciation transfers,119
+279,Equipment depreciation,-120
+280,Motor cars cost b/f,121
+281,Motor cars additions,122
+282,Motor cars disposals,-123
+283,Motor cars revaluation,124
+284,Motor cars transfers,-125
+285,Motor cars depreciation b/f,-126
+286,Motor cars depreciation disposals,127
+287,Motor cars depreciation revaluation,-128
+288,Motor cars depreciation transfers,129
+289,Motor cars depreciation,-130
+600,Shares in group companies b/f,131
+601,Shares in group companies additions,132
+602,Shares in group companies disposals,-133
+605,Shares in group companies amortisation b/f,-134
+606,Shares in group companies amortisation disposals,135
+607,Shares in group companies written back,-136
+609,Shares in group companies written-off,-137
+630,Loans cost b/f,138
+631,Loans additions,139
+632,Loans disposals,-140
+635,Loans amortisation b/f,-141
+636,Loans amortisation Disposals,142
+637,Loans written-back,-143
+639,Loans amortisation,-144
+1000,Stock,145
+1060,Stock of finished goods,146
+1070,Trade debtors,147
+1071,Cash taking,148
+1072,Card taking,149
+1073,Cheque taking,150
+1090,UK corporation tax payable,151
+1091,CS payable,-152
+1092,CIS,153
+1100,VAT control,-154
+1101,Input VAT,155
+1102,Output VAT,-156
+1103,Deferred input VAT,157
+1104,Deferred output VAT,-158
+1200,PAYE control,-159
+1300,Other debtors,161
+1301,Suspense adjustment a/c,162
+1305,Amounts due from group companies,163
+1310,Prepayments,164
+1320,Accrued income,165
+1321,Directors account,-18699
+1322,Employee account,167
+1330,Listed investments - UK,170
+1339,Other investments,171
+1400,Bank account,172
+1401,Suspense,173
+1402,Cheque control,174
+1410,Deposits,175
+1411,Loan addition short term,176
+1420,Cash,177
+1450,Long term debtor,178
+2000,Bank loan,-179
+2001,Mortgage,-180
+2010,Loans,-181
+2030,Finance leases,-183
+2040,Hire purchase,-184
+2050,Payments received on account,-185
+2060,Supplier controller account,-186
+2070,Bills of exchange payable,-187
+2080,Other creditors,-188
+2090,Pension schemes,-189
+2091,Accruals,-190
+2092,Deferred income,-191
+2093,Grants,-192
+2095,Amounts due to group companies,-193
+2300,Bank loans (unsecured) > 1yr,-194
+2301,Bank loans (secured) > 1yr,-195
+2302,Loans > 1yr,-196
+2310,Finance leases > 1yr,-197
+2320,Hire purchase > 1yr,-198
+2329,Convertible loans > 1yr,-199
+2330,Payments received on account > 1yr,-200
+2331,Trade creditors > 1yr,-201
+2332,Bills of exchange payable > 1yr,-202
+2333,Other creditors > 1yr,-203
+2334,Pension schemes > 1yr,-204
+2335,Taxation and social security > 1yr,-205
+2336,Accruals > 1yr,-206
+2337,Deferred income > 1yr,-207
+2338,Grants > 1yr,-208
+2339,Due to group companies > 1yr,-209
+2400,Pensions,-211
+2401,Warranties,-212
+2402,Deferred taxation,-213
+2403,Bad debts,-214
+2404,Environmental costs,-215
+2405,Other provisions,-216
+2406,Provision for depreciation,-217
+3000,Called up share capital,-218
+3005,Revaluation reserve,-220
+3007,Capital distribution,-221
+3010,Other reserves,-222
+3100,Retained profit/capital b/f,-223
+3103,Profit/loss,-224
+4000,Sales,-226
+4020,Other trading income,-234
+4021,Flat rate saving,-235
+4100,Bank interest receivable,-236
+4101,Other interest receivable,-237
+4105,Rent receivable,-238
+4106,Commission receivable,-239
+4107,Sundry income,-240
+4112,Non taxable income,-241
+5000,Opening stock,242
+5100,Purchases,243
+5101,Materials,244
+5200,Closing stock,-246
+6000,Gross wages,247
+6010,NIC employer,248
+6015,Subcontractor costs,249
+6060,Other direct expenses,250
+6080,Transportation cost,251
+6085,Discount allowed,252
+6090,Sales commission payable,253
+7001,Other expenses,254
+7004,"Advertising, sales, promotion and marketing",255
+7005,"Trade fairs, exhibitions and website costs",256
+7008,Website cost,257
+7010,Travel and overseas travelling,258
+7012,Speeding and parking fines/congestion charge Etc,259
+7014,Hotels and accomodation costs,260
+7015,Overseas allowance,261
+7016,Travel and subsistence,262
+7020,Business entertaining,263
+7021,Staff entertaining,264
+7022,Overseas entertainment,265
+7030,Bad debts,266
+7031,Bad debts recovered,267
+7032,General provision for doubtful debts,268
+7033,Profit/loss on currency exchange,269
+7035,Research and development costs,270
+7200,Ground rent and service charges,271
+7201,Rates,272
+7203,Service charges,273
+7204,Water charges,274
+7205,"Heat and light(gas, electricity)",275
+7208,Rent,276
+7209,Cleaning,277
+7210,Repairs and renewals,278
+7212,Use of residence,279
+7213,Health & safety,280
+7214,License fees,281
+7251,Directors salaries,282
+7254,Directors NIC,283
+7257,SSP reclaimed,284
+7258,SMP reclaimed,285
+7260,Wages - casual,286
+7262,Salaries,287
+7263,NIC employer (wages and salaries),288
+7264,Remuneration trust contribution,289
+7266,Pension contributions,290
+7267,Pension contributions - director,291
+7268,Staff welfare,292
+7270,"Recruitment, training and development",293
+7271,Training and development,294
+7280,"Equipment maintenance, rental and leasing",295
+7281,Equipment expensed,296
+7283,Computer cost,297
+7300,"Motor expenses - fuel, oil, repair, insurance, licenses, leasing",298
+7305,Scale charges,299
+7400,Accountancy fees,300
+7401,"Professional, consultancy and legal fees",301
+7402,Subcontrator - overhead,302
+7500,Insurance,303
+7505,"Postage, printing, stationery & office supplies",304
+7507,"Telephone, internet and broadband",305
+7510,Membership and subscriptions,306
+7511,Charitable donations,307
+7512,Political contributions,308
+7518,"Bank, card and overdraft charges",309
+7519,"Bank, hire purchase, mortgage and other interests",310
+7525,Sundry expenses,311
+7527,HMRC penalties,312
+7603,Amortisation of purchased goodwill,313
+7624,Depreciation of plant and machinery,314
+7625,Depreciation of commercial vehicles,315
+7626,Depreciation of fixtures and fittings,316
+7627,Depreciation of equipment,317
+7628,Depreciation of motor cars,318
+7630,Depreciation of assets under hp / finance leases,319
+7901,Corporation tax,320
+7902,Corporation tax credit,321
+7903,P&L Deferred corporation tax,322
+7906,Current tax adjust - prior years,323
+7907,Deferred tax adjust - prior years,324
+7911,Tax re income of assoc undertakings,325
+7920,Deferred tax 1,326
+7925,Unrelieved taxation losses,327
+7926,Other timing differences,328
+7950,Extraordinary income,329
+7951,Extraordinary charges,330
+7952,Extraordinary tax,331
+7954,dividends,333
+7958,Transfer from revaluation reserve,335
+7959,Provision redemption share capital,336
+7960,Provision for redemption of loan,337

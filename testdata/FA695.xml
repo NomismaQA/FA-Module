@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+ 
+
+<suite name="Suitfile">
+
+<listeners>
+ <listener class-name="reports.TestNGListener"/>
+<listener class-name="reports.ExtentTestListener" />
+</listeners>
+
+<test name= "VerifyregistrationnumberappearingoncoverpageFA6941_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.VerifyregistrationnumberappearingoncoverpageFA6941_DefaultProfile"/>
+   			</classes>
+  
+    </test> 
+ 
+ <test name= "VerifycountrynamechangeautoinregistrationnumberappearingoncoverpageFA6942_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.VerifycountrynamechangeautoinregistrationnumberappearingoncoverpageFA6942_DefaultProfile"/>
+   			</classes>
+  
+    </test> 
+ 
+ <test name= "VerifyreporttitlenameoncoverpageFA6943_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.VerifyreporttitlenameoncoverpageFA6943_DefaultProfile"/>
+   			</classes>
+  
+    </test>
+ 
+ <test name= "VerifyheaderappearanceoncontentpageFA6944_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.VerifyheaderappearanceoncontentpageFA6944_DefaultProfile"/>
+   			</classes>
+  
+    </test>
+ 
+ <test name= "VerifyrenamehasbeendoneFA6948_DefaultProfile" enabled="true"> 
+  <classes> 
+    				<class name= "tests.VerifyrenamehasbeendoneFA6948_DefaultProfile"/>
+   			</classes>
+   			</test>
+ 
+  <test name= "VerifydynamicpagenumberingoncontentspageFA6949_DefaultProfile" enabled="true"> 
+  <classes> 
+    				<class name= "tests.VerifydynamicpagenumberingoncontentspageFA6949_DefaultProfile"/>
+   			</classes>
+  </test> 			  
+  
+  <test name= "VerifypagenumbersallotedtoadesignatedreportisappearingonthatpageFA69410_DefaultProfile" enabled="true"> 
+  <classes> 
+    				<class name= "tests.VerifypagenumbersallotedtoadesignatedreportisappearingonthatpageFA69410_DefaultProfile"/>
+   			</classes>
+  </test> 	
+  
+   <test name= "VerifywhetherdynamicpagenumberingoncontentspagearechangingautomaticallyFA69411_DefaultProfile" enabled="true"> 
+  <classes> 
+    				<class name= "tests.VerifywhetherdynamicpagenumberingoncontentspagearechangingautomaticallyFA69411_DefaultProfile"/>
+   			</classes>
+  </test>
+  
+   <test name= "VerifyifuserinsertnotesinNotestotheAccountsandbreakitintotwopagesFA69412_DefaultProfile" enabled="true"> 
+  <classes> 
+    				<class name= "tests.VerifyifuserinsertnotesinNotestotheAccountsandbreakitintotwopagesFA69412_DefaultProfile"/>
+   			</classes>
+  </test> 	
+  <test name= "VerifyifuserremovenotesinNotestotheAccountsandbringitdownitintoonepageFA69413_DefaultProfile" enabled="true"> 
+  <classes> 
+    				<class name= "tests.VerifyifuserremovenotesinNotestotheAccountsandbringitdownitintoonepageFA69413_DefaultProfile"/>
+   			</classes>
+  </test> 	
+  
+   <test name= "VerifyheaderappearanceoncompanyinformationpageFA69414_DefaultProfile" enabled="true"> 
+  <classes> 
+    				<class name= "tests.VerifyheaderappearanceoncompanyinformationpageFA69414_DefaultProfile"/>
+   			</classes>
+  </test>
+  
+   <test name= "VerifyheaderappearanceoncompanyinformationpageFA69415_DefaultProfile" enabled="true"> 
+  <classes> 
+    				<class name= "tests.VerifyheaderappearanceoncompanyinformationpageFA69415_DefaultProfile"/>
+   			</classes>
+  </test> 	
+  
+   <test name= "VerifycountrynamechangeautoinregistrationnumberappearingoncoverpageFA69417_DefaultProfile" enabled="true"> 
+  <classes> 
+    				<class name= "tests.VerifycountrynamechangeautoinregistrationnumberappearingoncoverpageFA69417_DefaultProfile"/>
+   			</classes>
+  </test>
+  
+   <test name= "VerifyregisteredofficeaddressappearingoncompanyinformationpageFA69618_DefaultProfile" enabled="true"> 
+  <classes> 
+    				<class name= "tests.VerifyregisteredofficeaddressappearingoncompanyinformationpageFA69618_DefaultProfile"/>
+   			</classes>
+  </test>
+  
+   <test name= "VerifytradingofficeaddressappearingoncompanyinformationpageFA69619_DefaultProfile" enabled="true"> 
+  <classes> 
+    				<class name= "tests.VerifytradingofficeaddressappearingoncompanyinformationpageFA69619_DefaultProfile"/>
+   			</classes>
+  </test> 				  		  
+   
+   <test name= "VerifyaccountantsappearingoncompanyinformationpageFA69620_DefaultProfile" enabled="true"> 
+  <classes> 
+    				<class name= "tests.VerifyaccountantsappearingoncompanyinformationpageFA69620_DefaultProfile"/>
+   			</classes>
+  </test> 	
+  
+   <test name= "VerifyheaderappearanceondirectorsreportpageFA69623_DefaultProfile" enabled="true"> 
+  <classes> 
+    				<class name= "tests.VerifyheaderappearanceondirectorsreportpageFA69623_DefaultProfile"/>
+   			</classes>
+  </test> 
+  
+   <test name= "VerifydirectorsofthecompanyappearingondirectorsreportpageFA69627_DefaultProfile" enabled="false"> 
+  <classes> 
+    				<class name= "tests.VerifydirectorsofthecompanyappearingondirectorsreportpageFA69627_DefaultProfile"/>
+   			</classes>
+  </test>
+  
+   <test name= "VerifydirectorsofthecompanyappearingondirectorsreportpageFA69628_DefaultProfile" enabled="false"> 
+  <classes> 
+    				<class name= "tests.VerifydirectorsofthecompanyappearingondirectorsreportpageFA69628_DefaultProfile"/>
+   			</classes>
+  </test>
+  
+   <test name= "VerifydirectorsofthecompanyappearingondirectorsreportpageFA69629_DefaultProfile" enabled="false"> 
+  <classes> 
+    				<class name= "tests.VerifydirectorsofthecompanyappearingondirectorsreportpageFA69629_DefaultProfile"/>
+   			</classes>
+  </test>
+  
+   <test name= "VerifydirectorsofthecompanyappearingondirectorsreportpageFA69630_DefaultProfile" enabled="false"> 
+  <classes> 
+    				<class name= "tests.VerifydirectorsofthecompanyappearingondirectorsreportpageFA69630_DefaultProfile"/>
+   			</classes>
+  </test>
+  
+   <test name= "VerifydirectorsofthecompanyappearingondirectorsreportpageFA69631_DefaultProfile" enabled="false"> 
+  <classes> 
+    				<class name= "tests.VerifydirectorsofthecompanyappearingondirectorsreportpageFA69631_DefaultProfile"/>
+   			</classes>
+  </test>
+  
+   <test name= "VerifydirectorsofthecompanyappearingondirectorreportpageFA69632_DefaultProfile" enabled="false"> 
+  <classes> 
+    				<class name= "tests.VerifydirectorsofthecompanyappearingondirectorreportpageFA69632_DefaultProfile"/>
+   			</classes>
+  </test>
+  
+   <test name= "VerifydirectorsofthecompanyappearingondirectorsreportpageFA69633_DefaultProfile" enabled="false"> 
+  <classes> 
+    				<class name= "tests.VerifydirectorsofthecompanyappearingondirectorsreportpageFA69633_DefaultProfile"/>
+   			</classes>
+  </test>
+  
+   <test name= "VerifydirectorsofthecompanyappearingondirectorsreportpageFA69634_DefaultProfile" enabled="false"> 
+  <classes> 
+    				<class name= "tests.VerifydirectorsofthecompanyappearingondirectorsreportpageFA69634_DefaultProfile"/>
+   			</classes>
+  </test>
+  
+   <test name= "VerifydirectorsofthecompanyappearingondirectorsreportpageFA69635_DefaultProfile" enabled="false"> 
+  <classes> 
+    				<class name= "tests.VerifydirectorsofthecompanyappearingondirectorsreportpageFA69635_DefaultProfile"/>
+   			</classes>
+  </test>
+  
+   <test name= "VerifydirectorsofthecompanyappearingondirectorsreportpageFA69636_DefaultProfile" enabled="false"> 
+  <classes> 
+    				<class name= "tests.VerifydirectorsofthecompanyappearingondirectorsreportpageFA69636_DefaultProfile"/>
+   			</classes>
+  </test> 	
+  
+   <test name= "VerifyusercanaddremovedonationnoteaspertheirwishFA69639_DefaultProfile" enabled="true"> 
+  <classes> 
+    				<class name= "tests.VerifyusercanaddremovedonationnoteaspertheirwishFA69639_DefaultProfile"/>
+   			</classes>
+  </test>
+  
+   <test name= "VerifyuseronseparatepageofdirectorresponsibilitiesappearingonreportFA69641_DefaultProfile" enabled="true"> 
+  <classes> 
+    				<class name= "tests.VerifyuseronseparatepageofdirectorresponsibilitiesappearingonreportFA69641_DefaultProfile"/>
+   			</classes>
+  </test>
+  
+   <test name= "VerifyheaderappearanceonaccountantsreportpageFA69642_DefaultProfile" enabled="true"> 
+  <classes> 
+    				<class name= "tests.VerifyheaderappearanceonaccountantsreportpageFA69642_DefaultProfile"/>
+   			</classes>
+  </test>
+  
+   <test name= "VerifyaccountantssignaturedetailsappearingonaccountantsreportpageFA69645_DefaultProfile" enabled="true"> 
+  <classes> 
+    				<class name= "tests.VerifyaccountantssignaturedetailsappearingonaccountantsreportpageFA69645_DefaultProfile"/>
+   			</classes>
+  </test> 
+  
+  <test name= "VerifythereportisnotacharteredaccountantonechangecontenttoaccountantsFA69646_DefaultProfile" enabled="true"> 
+  <classes> 
+    				<class name= "tests.VerifythereportisnotacharteredaccountantonechangecontenttoaccountantsFA69646_DefaultProfile"/>
+   			</classes>
+  </test> 	
+  
+   <test name= "VerifyheaderappearanceonIncomestatementpageFA69648_DefaultProfile" enabled="true"> 
+  <classes> 
+    				<class name= "tests.VerifyheaderappearanceonIncomestatementpageFA69648_DefaultProfile"/>
+   			</classes>
+  </test>
+  
+   <test name= "Verifyledgercode4020and4021areincludedunderturnoverFA69649_DefaultProfile" enabled="false"> 
+  <classes> 
+    				<class name= "tests.Verifyledgercode4020and4021areincludedunderturnoverFA69649_DefaultProfile"/>
+   			</classes>
+  </test> 
+  
+   <test name= "Verifyledgercode4020and4021areincludedunderturnoverFA69650_DefaultProfile" enabled="false"> 
+  <classes> 
+    				<class name= "tests.Verifyledgercode4020and4021areincludedunderturnoverFA69650_DefaultProfile"/>
+   			</classes>
+  </test>  	
+  
+   <test name= "Verifyledgercode7959and7960areincludedunderlossgainonchangesinprovisionFA69651_DefaultProfile" enabled="false"> 
+  <classes> 
+    				<class name= "tests.Verifyledgercode7959and7960areincludedunderlossgainonchangesinprovisionFA69651_DefaultProfile"/>
+   			</classes>
+  </test>
+  
+   <test name= "Verifyledgercode7959and7960areincludedunderlossgainonchangesinprovisionFA69652_DefaultProfile" enabled="false"> 
+  <classes> 
+    				<class name= "tests.Verifyledgercode7959and7960areincludedunderlossgainonchangesinprovisionFA69652_DefaultProfile"/>
+   			</classes>
+  </test>
+  
+  <test name= "Verifyledgercode7958areincludedunderlossgainonrevaluationreserveFA69653_DefaultProfile" enabled="false"> 
+  <classes> 
+    				<class name= "tests.Verifyledgercode7958areincludedunderlossgainonrevaluationreserveFA69653_DefaultProfile"/>
+   			</classes>
+  </test>
+  
+  <test name= "Verifyledgercode7958areincludedunderlossgainonrevaluationreserveFA69654_DefaultProfile" enabled="false"> 
+  <classes> 
+    				<class name= "tests.Verifyledgercode7958areincludedunderlossgainonrevaluationreserveFA69654_DefaultProfile"/>
+   			</classes>
+  </test>
+  
+  <test name= "Verifyledgercode3001areincludedundersharepremiumappearingonstatementFA69658_DefaultProfile" enabled="false"> 
+  <classes> 
+    				<class name= "tests.Verifyledgercode3001areincludedundersharepremiumappearingonstatementFA69658_DefaultProfile"/>
+   			</classes>
+  </test>
+  
+   <test name= "Verifyledgercode3001areincludedundersharepremiumappearingonstatementFA69659_DefaultProfile" enabled="false"> 
+  <classes> 
+    				<class name= "tests.Verifyledgercode3001areincludedundersharepremiumappearingonstatementFA69659_DefaultProfile"/>
+   			</classes>
+  </test>
+  
+   <test name= "VerifynewlineinsertedafterinvestmentcalledinvestmentpropertyonstatementFA69660_DefaultProfile" enabled="true"> 
+  <classes> 
+    				<class name= "tests.VerifynewlineinsertedafterinvestmentcalledinvestmentpropertyonstatementFA69660_DefaultProfile"/>
+   			</classes>
+  </test>
+ 
+  <test name= "VerifynotenumbermentionedonIncomestatementhashyperlinkwhichredirectFA69655_DefaultProfile" enabled="true"> 
+  <classes> 
+    				<class name= "tests.VerifynotenumbermentionedonIncomestatementhashyperlinkwhichredirectFA69655_DefaultProfile"/>
+   			</classes>
+  </test>
+  
+   <test name= "VerifyheaderappearanceonstatementoffinancialpositionpageFA69656_DefaultProfile" enabled="true"> 
+  <classes> 
+    				<class name= "tests.VerifyheaderappearanceonstatementoffinancialpositionpageFA69656_DefaultProfile"/>
+   			</classes>
+  </test>
+  
+  <test name= "VerifynotenumbermentionedonIncomestatementhashyperlinkwhichredirectFA69657_DefaultProfile" enabled="true"> 
+  <classes> 
+    				<class name= "tests.VerifynotenumbermentionedonIncomestatementhashyperlinkwhichredirectFA69657_DefaultProfile"/>
+   			</classes>
+  </test>
+  
+  <test name= "VerifybalancesheetfootnoteappearanceonstatementoffinancialpositionpageFA69661_DefaultProfile" enabled="true"> 
+  <classes> 
+    				<class name= "tests.VerifybalancesheetfootnoteappearanceonstatementoffinancialpositionpageFA69661_DefaultProfile"/>
+   			</classes>
+  </test>
+  
+   <test name= "VerifydynamicfooterpagenationonstatementoffinancialpositionpageFA69662_DefaultProfile" enabled="true"> 
+  <classes> 
+    				<class name= "tests.VerifydynamicfooterpagenationonstatementoffinancialpositionpageFA69662_DefaultProfile"/>
+   			</classes>
+  </test>
+  
+   <test name= "VerifyheaderappearanceondetailedincomestatementpageFA69665_DefaultProfile" enabled="true"> 
+  <classes> 
+    				<class name= "tests.VerifyheaderappearanceondetailedincomestatementpageFA69665_DefaultProfile"/>
+   			</classes>
+  </test>
+  
+   <test name= "VerifyturnoverlineitemmustbeappearevenincaseofnovaluestoshowFA69668_DefaultProfile" enabled="true"> 
+  <classes> 
+    				<class name= "tests.VerifyturnoverlineitemmustbeappearevenincaseofnovaluestoshowFA69668_DefaultProfile"/>
+   			</classes>
+  </test>
+  
+   <test name= "VerifythissectiondoesnotformpartofthestatutoryaccountsFA69671_DefaultProfile" enabled="true"> 
+  <classes> 
+    				<class name= "tests.VerifythissectiondoesnotformpartofthestatutoryaccountsFA69671_DefaultProfile"/>
+   			</classes>
+  </test>
+  
+   <test name= "VerifythissectiondoesnotformpartofcompanystatutoryfinancialstatementsFA69672_DefaultProfile" enabled="true"> 
+  <classes> 
+    				<class name= "tests.VerifythissectiondoesnotformpartofcompanystatutoryfinancialstatementsFA69672_DefaultProfile"/>
+   			</classes>
+  </test>
+  <test name= "VerifynottoseethissymbolonCompanyInformationpageFA69426_DefaultProfile" enabled="true"> 
+  <classes> 
+    				<class name= "tests.VerifynottoseethissymbolonCompanyInformationpageFA69426_DefaultProfile"/>
+   			</classes>
+  </test>
+  
+  <test name= "VerifythissectiondoesnotformpartofcompanystatuVerifydynamicfooterpagenationoncompanyInformationpageFA69427_DefaultProfiletoryfinancialstatementsFA69672_DefaultProfile" enabled="true"> 
+  <classes> 
+    				<class name= "tests.VerifydynamicfooterpagenationoncompanyInformationpageFA69427_DefaultProfile"/>
+   			</classes>
+  </test>
+  
+  <test name= "VerifyheaderappearanceondirectorsreportpageFA69428_DefaultProfile" enabled="true"> 
+  <classes> 
+    				<class name= "tests.VerifyheaderappearanceondirectorsreportpageFA69428_DefaultProfile"/>
+   			</classes>
+  </test>
+  
+  <test name= "VerifyItemsunderDirectorReportinReportSettingstabsforLimitedcompanyFA69429_DefaultProfile" enabled="true"> 
+  <classes> 
+    				<class name= "tests.VerifyItemsunderDirectorReportinReportSettingstabsforLimitedcompanyFA69429_DefaultProfile"/>
+   			</classes>
+  </test>
+  
+  <test name= "VerifyusercanremoveDirectorsReportaspertheirwishFA69430_DefaultProfile" enabled="true"> 
+  <classes> 
+    				<class name= "tests.VerifyusercanremoveDirectorsReportaspertheirwishFA69430_DefaultProfile"/>
+   			</classes>
+  </test>
+  
+  <test name= "VerifyusercanremoveprincipalactivityaspertheirwishFA69431_DefaultProfile" enabled="true"> 
+  <classes> 
+    				<class name= "tests.VerifyusercanremoveprincipalactivityaspertheirwishFA69431_DefaultProfile"/>
+   			</classes>
+  </test>
+  
+  <test name= "VerifyusercanaddremoveGoingconcernaspertheirwishFA69432_DefaultProfile" enabled="false"> 
+  <classes> 
+    				<class name= "tests.VerifyusercanaddremoveGoingconcernaspertheirwishFA69432_DefaultProfile"/>
+   			</classes>
+  </test>
+  
+  <test name= "VerifyusercanaddremoveCharitableDonationaspertheirwishFA69433_DefaultProfile" enabled="false"> 
+  <classes> 
+    				<class name= "tests.VerifyusercanaddremoveCharitableDonationaspertheirwishFA69433_DefaultProfile"/>
+   			</classes>
+  </test>
+  
+   <test name= "VerifyusercanaddremoveSmallCompanyProvisionaspertheirwishFA69434_DefaultProfile" enabled="false"> 
+  <classes> 
+    				<class name= "tests.VerifyusercanaddremoveSmallCompanyProvisionaspertheirwishFA69434_DefaultProfile"/>
+   			</classes>
+  </test>
+  
+   <test name= "VerifyusercanaddremoveDirectorResponsibilityaspertheirwishFA69435_DefaultProfile" enabled="false"> 
+  <classes> 
+    				<class name= "tests.VerifyusercanaddremoveDirectorResponsibilityaspertheirwishFA69435_DefaultProfile"/>
+   			</classes>
+  </test>
+  
+   <test name= "VerifyusercanmodifysigningdateonDirectorsReportaspertheirwishFA69444_DefaultProfile" enabled="true"> 
+  <classes> 
+    				<class name= "tests.VerifyusercanmodifysigningdateonDirectorsReportaspertheirwishFA69444_DefaultProfile"/>
+   			</classes>
+  </test>
+  
+   <test name= "VerifyusercanmodifysigningdateonAccountantsReportaspertheirwishFA69446_DefaultProfile" enabled="true"> 
+  <classes> 
+    				<class name= "tests.VerifyusercanmodifysigningdateonAccountantsReportaspertheirwishFA69446_DefaultProfile"/>
+   			</classes>
+  </test>
+  
+   <test name= "VerifyusercanaddremoveAccountantsReportaspertheirwishFA69447_DefaultProfile" enabled="true"> 
+  <classes> 
+    				<class name= "tests.VerifyusercanaddremoveAccountantsReportaspertheirwishFA69447_DefaultProfile"/>
+   			</classes>
+  </test>
+  
+   <test name= "VerifythereportisacharteredaccountantonechangecontenttoAccountantsreportFA69448_DefaultProfile" enabled="true"> 
+  <classes> 
+    				<class name= "tests.VerifythereportisacharteredaccountantonechangecontenttoAccountantsreportFA69448_DefaultProfile"/>
+   			</classes>
+  </test>	
+  
+   <test name= "VerifyrenamingoflastlineitemasperrequirementonIncomeStatementpageFA69455_DefaultProfile" enabled="false"> 
+  <classes> 
+    				<class name= "tests.VerifyrenamingoflastlineitemasperrequirementonIncomeStatementpageFA69455_DefaultProfile"/>
+   			</classes>
+  </test>
+  
+   <test name= "VerifydynamicfooterpagenationonCompanyInformationpageFA69456_DefaultProfile" enabled="false"> 
+  <classes> 
+    				<class name= "tests.VerifydynamicfooterpagenationonCompanyInformationpageFA69456_DefaultProfile"/>
+   			</classes>
+  </test>		
+  														
+</suite>
+
+	

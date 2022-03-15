@@ -1,0 +1,709 @@
+<html>
+<head>
+<title>TestNG:  VerifyOverpaymentsandrepaymentsiseditableafterunlockingthereturnFA71516_DefaultProfile</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>VerifyOverpaymentsandrepaymentsiseditableafterunlockingthereturnFA71516_DefaultProfile</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>0/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Aug 11 17:09:23 IST 2021</td>
+</tr>
+<tr><td>Total time:</td><td>18 seconds (18319 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='tests.VerifyCTAdjustmentsscreenisnoteditableafterlockingtheperiodFA7152_DefaultProfile.GoToUrlAssertUrlPositiveEnterUsernamePositiveEnterPasswordClickLoginButtonPositiveEnterAgentNa()'><b>GoToUrlAssertUrlPositiveEnterUsernamePositiveEnterPasswordClickLoginButtonPositiveEnterAgentNa</b><br>Test class: tests.VerifyCTAdjustmentsscreenisnoteditableafterlockingtheperiodFA7152_DefaultProfile</td>
+<td><div><pre>java.lang.AssertionError: Unable to locate object: By.xpath: //label[contains(.,&apos;Name:&apos;)]/../input
+	at pages.Verify_CT_Adjustments_screen_is_not_editable_after_locking_the_periodFA7152.Enter_AgentName(Verify_CT_Adjustments_screen_is_not_editable_after_locking_the_periodFA7152.java:178)
+	at tests.VerifyCTAdjustmentsscreenisnoteditableafterlockingtheperiodFA7152_DefaultProfile.GoToUrlAssertUrlPositiveEnterUsernamePositiveEnterPasswordClickLoginButtonPositiveEnterAgentNa(VerifyCTAdjustmentsscreenisnoteditableafterlockingtheperiodFA7152_DefaultProfile.java:58)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1597425891", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1597425891'><pre>java.lang.AssertionError: Unable to locate object: By.xpath: //label[contains(.,&apos;Name:&apos;)]/../input
+	at org.testng.Assert.fail(Assert.java:97)
+	at pages.Verify_CT_Adjustments_screen_is_not_editable_after_locking_the_periodFA7152.Enter_AgentName(Verify_CT_Adjustments_screen_is_not_editable_after_locking_the_periodFA7152.java:178)
+	at tests.VerifyCTAdjustmentsscreenisnoteditableafterlockingtheperiodFA7152_DefaultProfile.GoToUrlAssertUrlPositiveEnterUsernamePositiveEnterPasswordClickLoginButtonPositiveEnterAgentNa(VerifyCTAdjustmentsscreenisnoteditableafterlockingtheperiodFA7152_DefaultProfile.java:58)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at org.testng.TestRunner.privateRun(TestRunner.java:766)
+	at org.testng.TestRunner.run(TestRunner.java:587)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+	at org.testng.TestNG.runSuites(TestNG.java:1039)
+	at org.testng.TestNG.run(TestNG.java:1007)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>13</td>
+<td>tests.VerifyCTAdjustmentsscreenisnoteditableafterlockingtheperiodFA7152_DefaultProfile@319bc845</td></tr>
+<tr>
+<td title='tests.VerifyCTAdjustmentsiseditableafterunlockingtheperiodFA7153_DefaultProfile.GoToUrlAssertUrlPositiveEnterUsernamePositiveEnterPasswordClickLoginButtonPositiveEnterAgentNa()'><b>GoToUrlAssertUrlPositiveEnterUsernamePositiveEnterPasswordClickLoginButtonPositiveEnterAgentNa</b><br>Test class: tests.VerifyCTAdjustmentsiseditableafterunlockingtheperiodFA7153_DefaultProfile</td>
+<td><div><pre>java.lang.AssertionError: Unable to locate object: By.xpath: //label[contains(.,&apos;Name:&apos;)]/../input
+	at pages.Verify_CT_Adjustments_is_editable_after_unlocking_the_periodFA7153.Enter_AgentName(Verify_CT_Adjustments_is_editable_after_unlocking_the_periodFA7153.java:196)
+	at tests.VerifyCTAdjustmentsiseditableafterunlockingtheperiodFA7153_DefaultProfile.GoToUrlAssertUrlPositiveEnterUsernamePositiveEnterPasswordClickLoginButtonPositiveEnterAgentNa(VerifyCTAdjustmentsiseditableafterunlockingtheperiodFA7153_DefaultProfile.java:58)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1878045132", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1878045132'><pre>java.lang.AssertionError: Unable to locate object: By.xpath: //label[contains(.,&apos;Name:&apos;)]/../input
+	at org.testng.Assert.fail(Assert.java:97)
+	at pages.Verify_CT_Adjustments_is_editable_after_unlocking_the_periodFA7153.Enter_AgentName(Verify_CT_Adjustments_is_editable_after_unlocking_the_periodFA7153.java:196)
+	at tests.VerifyCTAdjustmentsiseditableafterunlockingtheperiodFA7153_DefaultProfile.GoToUrlAssertUrlPositiveEnterUsernamePositiveEnterPasswordClickLoginButtonPositiveEnterAgentNa(VerifyCTAdjustmentsiseditableafterunlockingtheperiodFA7153_DefaultProfile.java:58)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at org.testng.TestRunner.privateRun(TestRunner.java:766)
+	at org.testng.TestRunner.run(TestRunner.java:587)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+	at org.testng.TestNG.runSuites(TestNG.java:1039)
+	at org.testng.TestNG.run(TestNG.java:1007)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>27</td>
+<td>tests.VerifyCTAdjustmentsiseditableafterunlockingtheperiodFA7153_DefaultProfile@7d42c224</td></tr>
+<tr>
+<td title='tests.VerifyRDexpenditureNCTA046inProfitlossAdjustmentsisnoteditableFA7154_DefaultProfile.GoToUrlAssertUrlPositiveEnterUsernamePositiveEnterPasswordClickLoginButtonPositiveEnterAgentNa()'><b>GoToUrlAssertUrlPositiveEnterUsernamePositiveEnterPasswordClickLoginButtonPositiveEnterAgentNa</b><br>Test class: tests.VerifyRDexpenditureNCTA046inProfitlossAdjustmentsisnoteditableFA7154_DefaultProfile</td>
+<td><div><pre>java.lang.AssertionError: Unable to locate object: By.xpath: //label[contains(.,&apos;Name:&apos;)]/../input
+	at pages.Verify_RD_expenditure_NCTA046_in_Profitloss_Adjustments_is_not_editableFA7154.Enter_AgentName(Verify_RD_expenditure_NCTA046_in_Profitloss_Adjustments_is_not_editableFA7154.java:187)
+	at tests.VerifyRDexpenditureNCTA046inProfitlossAdjustmentsisnoteditableFA7154_DefaultProfile.GoToUrlAssertUrlPositiveEnterUsernamePositiveEnterPasswordClickLoginButtonPositiveEnterAgentNa(VerifyRDexpenditureNCTA046inProfitlossAdjustmentsisnoteditableFA7154_DefaultProfile.java:58)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1007550632", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1007550632'><pre>java.lang.AssertionError: Unable to locate object: By.xpath: //label[contains(.,&apos;Name:&apos;)]/../input
+	at org.testng.Assert.fail(Assert.java:97)
+	at pages.Verify_RD_expenditure_NCTA046_in_Profitloss_Adjustments_is_not_editableFA7154.Enter_AgentName(Verify_RD_expenditure_NCTA046_in_Profitloss_Adjustments_is_not_editableFA7154.java:187)
+	at tests.VerifyRDexpenditureNCTA046inProfitlossAdjustmentsisnoteditableFA7154_DefaultProfile.GoToUrlAssertUrlPositiveEnterUsernamePositiveEnterPasswordClickLoginButtonPositiveEnterAgentNa(VerifyRDexpenditureNCTA046inProfitlossAdjustmentsisnoteditableFA7154_DefaultProfile.java:58)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at org.testng.TestRunner.privateRun(TestRunner.java:766)
+	at org.testng.TestRunner.run(TestRunner.java:587)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+	at org.testng.TestNG.runSuites(TestNG.java:1039)
+	at org.testng.TestNG.run(TestNG.java:1007)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>30</td>
+<td>tests.VerifyRDexpenditureNCTA046inProfitlossAdjustmentsisnoteditableFA7154_DefaultProfile@5e8ac0e1</td></tr>
+<tr>
+<td title='tests.VerifyvalueisnotsavinginAssetDisposalNCTA060inProfitlossAdjustmentsFA7156_DefaultProfile.GoToUrlAssertUrlPositiveEnterUsernamePositiveEnterPasswordClickLoginButtonPositiveEnterAgentNa()'><b>GoToUrlAssertUrlPositiveEnterUsernamePositiveEnterPasswordClickLoginButtonPositiveEnterAgentNa</b><br>Test class: tests.VerifyvalueisnotsavinginAssetDisposalNCTA060inProfitlossAdjustmentsFA7156_DefaultProfile</td>
+<td><div><pre>java.lang.AssertionError: Unable to locate object: By.xpath: //label[contains(.,&apos;Name:&apos;)]/../input
+	at pages.Verify_value_is_not_saving_in_Asset_Disposal_NCTA060_in_Profitloss_AdjustmentsFA7156.Enter_AgentName(Verify_value_is_not_saving_in_Asset_Disposal_NCTA060_in_Profitloss_AdjustmentsFA7156.java:182)
+	at tests.VerifyvalueisnotsavinginAssetDisposalNCTA060inProfitlossAdjustmentsFA7156_DefaultProfile.GoToUrlAssertUrlPositiveEnterUsernamePositiveEnterPasswordClickLoginButtonPositiveEnterAgentNa(VerifyvalueisnotsavinginAssetDisposalNCTA060inProfitlossAdjustmentsFA7156_DefaultProfile.java:58)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace730949640", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace730949640'><pre>java.lang.AssertionError: Unable to locate object: By.xpath: //label[contains(.,&apos;Name:&apos;)]/../input
+	at org.testng.Assert.fail(Assert.java:97)
+	at pages.Verify_value_is_not_saving_in_Asset_Disposal_NCTA060_in_Profitloss_AdjustmentsFA7156.Enter_AgentName(Verify_value_is_not_saving_in_Asset_Disposal_NCTA060_in_Profitloss_AdjustmentsFA7156.java:182)
+	at tests.VerifyvalueisnotsavinginAssetDisposalNCTA060inProfitlossAdjustmentsFA7156_DefaultProfile.GoToUrlAssertUrlPositiveEnterUsernamePositiveEnterPasswordClickLoginButtonPositiveEnterAgentNa(VerifyvalueisnotsavinginAssetDisposalNCTA060inProfitlossAdjustmentsFA7156_DefaultProfile.java:58)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at org.testng.TestRunner.privateRun(TestRunner.java:766)
+	at org.testng.TestRunner.run(TestRunner.java:587)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+	at org.testng.TestNG.runSuites(TestNG.java:1039)
+	at org.testng.TestNG.run(TestNG.java:1007)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>14</td>
+<td>tests.VerifyvalueisnotsavinginAssetDisposalNCTA060inProfitlossAdjustmentsFA7156_DefaultProfile@2a79d4b1</td></tr>
+<tr>
+<td title='tests.VerifyEditbuttonmustnotbeworkingforAboutthisreturnincasereturnislockedFA7157_DefaultProfile.GoToUrlAssertUrlPositiveEnterUsernamePositiveEnterPasswordClickLoginButtonPositiveEnterAgentNa()'><b>GoToUrlAssertUrlPositiveEnterUsernamePositiveEnterPasswordClickLoginButtonPositiveEnterAgentNa</b><br>Test class: tests.VerifyEditbuttonmustnotbeworkingforAboutthisreturnincasereturnislockedFA7157_DefaultProfile</td>
+<td><div><pre>java.lang.AssertionError: Unable to locate object: By.xpath: //label[contains(.,&apos;Name:&apos;)]/../input
+	at pages.Verify_Edit_button_must_not_be_working_for_About_this_return_in_case_return_is_lockedFA7157.Enter_AgentName(Verify_Edit_button_must_not_be_working_for_About_this_return_in_case_return_is_lockedFA7157.java:180)
+	at tests.VerifyEditbuttonmustnotbeworkingforAboutthisreturnincasereturnislockedFA7157_DefaultProfile.GoToUrlAssertUrlPositiveEnterUsernamePositiveEnterPasswordClickLoginButtonPositiveEnterAgentNa(VerifyEditbuttonmustnotbeworkingforAboutthisreturnincasereturnislockedFA7157_DefaultProfile.java:57)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace552260985", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace552260985'><pre>java.lang.AssertionError: Unable to locate object: By.xpath: //label[contains(.,&apos;Name:&apos;)]/../input
+	at org.testng.Assert.fail(Assert.java:97)
+	at pages.Verify_Edit_button_must_not_be_working_for_About_this_return_in_case_return_is_lockedFA7157.Enter_AgentName(Verify_Edit_button_must_not_be_working_for_About_this_return_in_case_return_is_lockedFA7157.java:180)
+	at tests.VerifyEditbuttonmustnotbeworkingforAboutthisreturnincasereturnislockedFA7157_DefaultProfile.GoToUrlAssertUrlPositiveEnterUsernamePositiveEnterPasswordClickLoginButtonPositiveEnterAgentNa(VerifyEditbuttonmustnotbeworkingforAboutthisreturnincasereturnislockedFA7157_DefaultProfile.java:57)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at org.testng.TestRunner.privateRun(TestRunner.java:766)
+	at org.testng.TestRunner.run(TestRunner.java:587)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+	at org.testng.TestNG.runSuites(TestNG.java:1039)
+	at org.testng.TestNG.run(TestNG.java:1007)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>14</td>
+<td>tests.VerifyEditbuttonmustnotbeworkingforAboutthisreturnincasereturnislockedFA7157_DefaultProfile@3f390d63</td></tr>
+<tr>
+<td title='tests.VerifyAboutthisreturniseditableafterunlockingthereturnFA7158_DefaultProfile.GoToUrlAssertUrlPositiveEnterUsernamePositiveEnterPasswordClickLoginButtonPositiveEnterAgentNa()'><b>GoToUrlAssertUrlPositiveEnterUsernamePositiveEnterPasswordClickLoginButtonPositiveEnterAgentNa</b><br>Test class: tests.VerifyAboutthisreturniseditableafterunlockingthereturnFA7158_DefaultProfile</td>
+<td><div><pre>java.lang.AssertionError: Unable to locate object: By.xpath: //label[contains(.,&apos;Name:&apos;)]/../input
+	at pages.Verify_About_this_return_is_editable_after_unlocking_the_returnFA7158.Enter_AgentName(Verify_About_this_return_is_editable_after_unlocking_the_returnFA7158.java:186)
+	at tests.VerifyAboutthisreturniseditableafterunlockingthereturnFA7158_DefaultProfile.GoToUrlAssertUrlPositiveEnterUsernamePositiveEnterPasswordClickLoginButtonPositiveEnterAgentNa(VerifyAboutthisreturniseditableafterunlockingthereturnFA7158_DefaultProfile.java:59)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1303187181", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1303187181'><pre>java.lang.AssertionError: Unable to locate object: By.xpath: //label[contains(.,&apos;Name:&apos;)]/../input
+	at org.testng.Assert.fail(Assert.java:97)
+	at pages.Verify_About_this_return_is_editable_after_unlocking_the_returnFA7158.Enter_AgentName(Verify_About_this_return_is_editable_after_unlocking_the_returnFA7158.java:186)
+	at tests.VerifyAboutthisreturniseditableafterunlockingthereturnFA7158_DefaultProfile.GoToUrlAssertUrlPositiveEnterUsernamePositiveEnterPasswordClickLoginButtonPositiveEnterAgentNa(VerifyAboutthisreturniseditableafterunlockingthereturnFA7158_DefaultProfile.java:59)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at org.testng.TestRunner.privateRun(TestRunner.java:766)
+	at org.testng.TestRunner.run(TestRunner.java:587)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+	at org.testng.TestNG.runSuites(TestNG.java:1039)
+	at org.testng.TestNG.run(TestNG.java:1007)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>13</td>
+<td>tests.VerifyAboutthisreturniseditableafterunlockingthereturnFA7158_DefaultProfile@70efb718</td></tr>
+<tr>
+<td title='tests.VerifyEditbuttonmustnotbeworkingforTaxCalculationincasereturnislockedFA7159_DefaultProfile.GoToUrlAssertUrlPositiveEnterUsernamePositiveEnterPasswordClickLoginButtonPositiveEnterAgentNa()'><b>GoToUrlAssertUrlPositiveEnterUsernamePositiveEnterPasswordClickLoginButtonPositiveEnterAgentNa</b><br>Test class: tests.VerifyEditbuttonmustnotbeworkingforTaxCalculationincasereturnislockedFA7159_DefaultProfile</td>
+<td><div><pre>java.lang.AssertionError: Unable to locate object: By.xpath: //label[contains(.,&apos;Name:&apos;)]/../input
+	at pages.Verify_Edit_button_must_not_be_working_for_Tax_Calculation_in_case_return_is_lockedFA7159.Enter_AgentName(Verify_Edit_button_must_not_be_working_for_Tax_Calculation_in_case_return_is_lockedFA7159.java:186)
+	at tests.VerifyEditbuttonmustnotbeworkingforTaxCalculationincasereturnislockedFA7159_DefaultProfile.GoToUrlAssertUrlPositiveEnterUsernamePositiveEnterPasswordClickLoginButtonPositiveEnterAgentNa(VerifyEditbuttonmustnotbeworkingforTaxCalculationincasereturnislockedFA7159_DefaultProfile.java:59)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace854977732", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace854977732'><pre>java.lang.AssertionError: Unable to locate object: By.xpath: //label[contains(.,&apos;Name:&apos;)]/../input
+	at org.testng.Assert.fail(Assert.java:97)
+	at pages.Verify_Edit_button_must_not_be_working_for_Tax_Calculation_in_case_return_is_lockedFA7159.Enter_AgentName(Verify_Edit_button_must_not_be_working_for_Tax_Calculation_in_case_return_is_lockedFA7159.java:186)
+	at tests.VerifyEditbuttonmustnotbeworkingforTaxCalculationincasereturnislockedFA7159_DefaultProfile.GoToUrlAssertUrlPositiveEnterUsernamePositiveEnterPasswordClickLoginButtonPositiveEnterAgentNa(VerifyEditbuttonmustnotbeworkingforTaxCalculationincasereturnislockedFA7159_DefaultProfile.java:59)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at org.testng.TestRunner.privateRun(TestRunner.java:766)
+	at org.testng.TestRunner.run(TestRunner.java:587)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+	at org.testng.TestNG.runSuites(TestNG.java:1039)
+	at org.testng.TestNG.run(TestNG.java:1007)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>15</td>
+<td>tests.VerifyEditbuttonmustnotbeworkingforTaxCalculationincasereturnislockedFA7159_DefaultProfile@f478a81</td></tr>
+<tr>
+<td title='tests.VerifyTaxCalculationiseditableafterunlockingthereturnFA71510_DefaultProfile.GoToUrlAssertUrlPositiveEnterUsernamePositiveEnterPasswordClickLoginButtonPositiveEnterAgentNa()'><b>GoToUrlAssertUrlPositiveEnterUsernamePositiveEnterPasswordClickLoginButtonPositiveEnterAgentNa</b><br>Test class: tests.VerifyTaxCalculationiseditableafterunlockingthereturnFA71510_DefaultProfile</td>
+<td><div><pre>java.lang.AssertionError: Unable to locate object: By.xpath: //label[contains(.,&apos;Name:&apos;)]/../input
+	at pages.Verify_Tax_Calculation_is_editable_after_unlocking_the_returnFA71510.Enter_AgentName(Verify_Tax_Calculation_is_editable_after_unlocking_the_returnFA71510.java:187)
+	at tests.VerifyTaxCalculationiseditableafterunlockingthereturnFA71510_DefaultProfile.GoToUrlAssertUrlPositiveEnterUsernamePositiveEnterPasswordClickLoginButtonPositiveEnterAgentNa(VerifyTaxCalculationiseditableafterunlockingthereturnFA71510_DefaultProfile.java:58)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1907028305", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1907028305'><pre>java.lang.AssertionError: Unable to locate object: By.xpath: //label[contains(.,&apos;Name:&apos;)]/../input
+	at org.testng.Assert.fail(Assert.java:97)
+	at pages.Verify_Tax_Calculation_is_editable_after_unlocking_the_returnFA71510.Enter_AgentName(Verify_Tax_Calculation_is_editable_after_unlocking_the_returnFA71510.java:187)
+	at tests.VerifyTaxCalculationiseditableafterunlockingthereturnFA71510_DefaultProfile.GoToUrlAssertUrlPositiveEnterUsernamePositiveEnterPasswordClickLoginButtonPositiveEnterAgentNa(VerifyTaxCalculationiseditableafterunlockingthereturnFA71510_DefaultProfile.java:58)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at org.testng.TestRunner.privateRun(TestRunner.java:766)
+	at org.testng.TestRunner.run(TestRunner.java:587)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+	at org.testng.TestNG.runSuites(TestNG.java:1039)
+	at org.testng.TestNG.run(TestNG.java:1007)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>14</td>
+<td>tests.VerifyTaxCalculationiseditableafterunlockingthereturnFA71510_DefaultProfile@14d14731</td></tr>
+<tr>
+<td title='tests.VerifyEditbuttonmustnotbeworkingforRDandCapitalAllowancesFA71511_DefaultProfile.GoToUrlAssertUrlPositiveEnterUsernamePositiveEnterPasswordClickLoginButtonPositiveEnterAgentNa()'><b>GoToUrlAssertUrlPositiveEnterUsernamePositiveEnterPasswordClickLoginButtonPositiveEnterAgentNa</b><br>Test class: tests.VerifyEditbuttonmustnotbeworkingforRDandCapitalAllowancesFA71511_DefaultProfile</td>
+<td><div><pre>java.lang.AssertionError: Unable to locate object: By.xpath: //label[contains(.,&apos;Name:&apos;)]/../input
+	at pages.Verify_Edit_button_must_not_be_working_for_RD_and_Capital_AllowancesFA71511.Enter_AgentName(Verify_Edit_button_must_not_be_working_for_RD_and_Capital_AllowancesFA71511.java:177)
+	at tests.VerifyEditbuttonmustnotbeworkingforRDandCapitalAllowancesFA71511_DefaultProfile.GoToUrlAssertUrlPositiveEnterUsernamePositiveEnterPasswordClickLoginButtonPositiveEnterAgentNa(VerifyEditbuttonmustnotbeworkingforRDandCapitalAllowancesFA71511_DefaultProfile.java:57)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace44227594", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace44227594'><pre>java.lang.AssertionError: Unable to locate object: By.xpath: //label[contains(.,&apos;Name:&apos;)]/../input
+	at org.testng.Assert.fail(Assert.java:97)
+	at pages.Verify_Edit_button_must_not_be_working_for_RD_and_Capital_AllowancesFA71511.Enter_AgentName(Verify_Edit_button_must_not_be_working_for_RD_and_Capital_AllowancesFA71511.java:177)
+	at tests.VerifyEditbuttonmustnotbeworkingforRDandCapitalAllowancesFA71511_DefaultProfile.GoToUrlAssertUrlPositiveEnterUsernamePositiveEnterPasswordClickLoginButtonPositiveEnterAgentNa(VerifyEditbuttonmustnotbeworkingforRDandCapitalAllowancesFA71511_DefaultProfile.java:57)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at org.testng.TestRunner.privateRun(TestRunner.java:766)
+	at org.testng.TestRunner.run(TestRunner.java:587)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+	at org.testng.TestNG.runSuites(TestNG.java:1039)
+	at org.testng.TestNG.run(TestNG.java:1007)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>31</td>
+<td>tests.VerifyEditbuttonmustnotbeworkingforRDandCapitalAllowancesFA71511_DefaultProfile@784b990c</td></tr>
+<tr>
+<td title='tests.VerifyRDandCapitalAllowanceiseditableafterunlockingthereturnFA71512_DefaultProfile.GoToUrlAssertUrlPositiveEnterUsernamePositiveEnterPasswordClickLoginButtonPositiveEnterAgentNa()'><b>GoToUrlAssertUrlPositiveEnterUsernamePositiveEnterPasswordClickLoginButtonPositiveEnterAgentNa</b><br>Test class: tests.VerifyRDandCapitalAllowanceiseditableafterunlockingthereturnFA71512_DefaultProfile</td>
+<td><div><pre>java.lang.AssertionError: Unable to locate object: By.xpath: //label[contains(.,&apos;Name:&apos;)]/../input
+	at pages.Verify_RD_and_Capital_Allowance_is_editable_after_unlocking_the_returnFA71512.Enter_AgentName(Verify_RD_and_Capital_Allowance_is_editable_after_unlocking_the_returnFA71512.java:177)
+	at tests.VerifyRDandCapitalAllowanceiseditableafterunlockingthereturnFA71512_DefaultProfile.GoToUrlAssertUrlPositiveEnterUsernamePositiveEnterPasswordClickLoginButtonPositiveEnterAgentNa(VerifyRDandCapitalAllowanceiseditableafterunlockingthereturnFA71512_DefaultProfile.java:58)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace436028378", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace436028378'><pre>java.lang.AssertionError: Unable to locate object: By.xpath: //label[contains(.,&apos;Name:&apos;)]/../input
+	at org.testng.Assert.fail(Assert.java:97)
+	at pages.Verify_RD_and_Capital_Allowance_is_editable_after_unlocking_the_returnFA71512.Enter_AgentName(Verify_RD_and_Capital_Allowance_is_editable_after_unlocking_the_returnFA71512.java:177)
+	at tests.VerifyRDandCapitalAllowanceiseditableafterunlockingthereturnFA71512_DefaultProfile.GoToUrlAssertUrlPositiveEnterUsernamePositiveEnterPasswordClickLoginButtonPositiveEnterAgentNa(VerifyRDandCapitalAllowanceiseditableafterunlockingthereturnFA71512_DefaultProfile.java:58)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at org.testng.TestRunner.privateRun(TestRunner.java:766)
+	at org.testng.TestRunner.run(TestRunner.java:587)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+	at org.testng.TestNG.runSuites(TestNG.java:1039)
+	at org.testng.TestNG.run(TestNG.java:1007)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>31</td>
+<td>tests.VerifyRDandCapitalAllowanceiseditableafterunlockingthereturnFA71512_DefaultProfile@1ae67cad</td></tr>
+<tr>
+<td title='tests.VerifyEditbuttonmustnotbeworkingforLossesdeficitsandexcessamountsFA71513_DefaultProfile.GoToUrlAssertUrlPositiveEnterUsernamePositiveEnterPasswordClickLoginButtonPositiveEnterAgentNa()'><b>GoToUrlAssertUrlPositiveEnterUsernamePositiveEnterPasswordClickLoginButtonPositiveEnterAgentNa</b><br>Test class: tests.VerifyEditbuttonmustnotbeworkingforLossesdeficitsandexcessamountsFA71513_DefaultProfile</td>
+<td><div><pre>java.lang.AssertionError: Unable to locate object: By.xpath: //label[contains(.,&apos;Name:&apos;)]/../input
+	at pages.Verify_Edit_button_must_not_be_working_for_Losses_deficits_and_excess_amountsFA71513.Enter_AgentName(Verify_Edit_button_must_not_be_working_for_Losses_deficits_and_excess_amountsFA71513.java:177)
+	at tests.VerifyEditbuttonmustnotbeworkingforLossesdeficitsandexcessamountsFA71513_DefaultProfile.GoToUrlAssertUrlPositiveEnterUsernamePositiveEnterPasswordClickLoginButtonPositiveEnterAgentNa(VerifyEditbuttonmustnotbeworkingforLossesdeficitsandexcessamountsFA71513_DefaultProfile.java:57)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace428061834", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace428061834'><pre>java.lang.AssertionError: Unable to locate object: By.xpath: //label[contains(.,&apos;Name:&apos;)]/../input
+	at org.testng.Assert.fail(Assert.java:97)
+	at pages.Verify_Edit_button_must_not_be_working_for_Losses_deficits_and_excess_amountsFA71513.Enter_AgentName(Verify_Edit_button_must_not_be_working_for_Losses_deficits_and_excess_amountsFA71513.java:177)
+	at tests.VerifyEditbuttonmustnotbeworkingforLossesdeficitsandexcessamountsFA71513_DefaultProfile.GoToUrlAssertUrlPositiveEnterUsernamePositiveEnterPasswordClickLoginButtonPositiveEnterAgentNa(VerifyEditbuttonmustnotbeworkingforLossesdeficitsandexcessamountsFA71513_DefaultProfile.java:57)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at org.testng.TestRunner.privateRun(TestRunner.java:766)
+	at org.testng.TestRunner.run(TestRunner.java:587)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+	at org.testng.TestNG.runSuites(TestNG.java:1039)
+	at org.testng.TestNG.run(TestNG.java:1007)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>12</td>
+<td>tests.VerifyEditbuttonmustnotbeworkingforLossesdeficitsandexcessamountsFA71513_DefaultProfile@4409e975</td></tr>
+<tr>
+<td title='tests.VerifyLossesdeficitsandexcessamountsiseditableafterunlockingthereturnFA71514_DefaultProfile.GoToUrlAssertUrlPositiveEnterUsernamePositiveEnterPasswordClickLoginButtonPositiveEnterAgentNa()'><b>GoToUrlAssertUrlPositiveEnterUsernamePositiveEnterPasswordClickLoginButtonPositiveEnterAgentNa</b><br>Test class: tests.VerifyLossesdeficitsandexcessamountsiseditableafterunlockingthereturnFA71514_DefaultProfile</td>
+<td><div><pre>java.lang.AssertionError: Unable to locate object: By.xpath: //label[contains(.,&apos;Name:&apos;)]/../input
+	at pages.Verify_Losses_deficits_and_excess_amounts_is_editable_after_unlocking_the_returnFA71514.Enter_AgentName(Verify_Losses_deficits_and_excess_amounts_is_editable_after_unlocking_the_returnFA71514.java:177)
+	at tests.VerifyLossesdeficitsandexcessamountsiseditableafterunlockingthereturnFA71514_DefaultProfile.GoToUrlAssertUrlPositiveEnterUsernamePositiveEnterPasswordClickLoginButtonPositiveEnterAgentNa(VerifyLossesdeficitsandexcessamountsiseditableafterunlockingthereturnFA71514_DefaultProfile.java:57)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1762731246", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1762731246'><pre>java.lang.AssertionError: Unable to locate object: By.xpath: //label[contains(.,&apos;Name:&apos;)]/../input
+	at org.testng.Assert.fail(Assert.java:97)
+	at pages.Verify_Losses_deficits_and_excess_amounts_is_editable_after_unlocking_the_returnFA71514.Enter_AgentName(Verify_Losses_deficits_and_excess_amounts_is_editable_after_unlocking_the_returnFA71514.java:177)
+	at tests.VerifyLossesdeficitsandexcessamountsiseditableafterunlockingthereturnFA71514_DefaultProfile.GoToUrlAssertUrlPositiveEnterUsernamePositiveEnterPasswordClickLoginButtonPositiveEnterAgentNa(VerifyLossesdeficitsandexcessamountsiseditableafterunlockingthereturnFA71514_DefaultProfile.java:57)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at org.testng.TestRunner.privateRun(TestRunner.java:766)
+	at org.testng.TestRunner.run(TestRunner.java:587)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+	at org.testng.TestNG.runSuites(TestNG.java:1039)
+	at org.testng.TestNG.run(TestNG.java:1007)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>16</td>
+<td>tests.VerifyLossesdeficitsandexcessamountsiseditableafterunlockingthereturnFA71514_DefaultProfile@3381b4fc</td></tr>
+<tr>
+<td title='tests.VerifyEditbuttonmustnotbeworkingforOverpaymentsandrepaymentsincasereturnFA71515_DefaultProfile.GoToUrlAssertUrlPositiveEnterUsernamePositiveEnterPasswordClickLoginButtonPositiveEnterAgentNa()'><b>GoToUrlAssertUrlPositiveEnterUsernamePositiveEnterPasswordClickLoginButtonPositiveEnterAgentNa</b><br>Test class: tests.VerifyEditbuttonmustnotbeworkingforOverpaymentsandrepaymentsincasereturnFA71515_DefaultProfile</td>
+<td><div><pre>java.lang.AssertionError: Unable to locate object: By.xpath: //label[contains(.,&apos;Name:&apos;)]/../input
+	at pages.Verify_Edit_button_must_not_be_working_for_Overpayments_and_repayments_in_case_returnFA71515.Enter_AgentName(Verify_Edit_button_must_not_be_working_for_Overpayments_and_repayments_in_case_returnFA71515.java:177)
+	at tests.VerifyEditbuttonmustnotbeworkingforOverpaymentsandrepaymentsincasereturnFA71515_DefaultProfile.GoToUrlAssertUrlPositiveEnterUsernamePositiveEnterPasswordClickLoginButtonPositiveEnterAgentNa(VerifyEditbuttonmustnotbeworkingforOverpaymentsandrepaymentsincasereturnFA71515_DefaultProfile.java:59)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1654999368", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1654999368'><pre>java.lang.AssertionError: Unable to locate object: By.xpath: //label[contains(.,&apos;Name:&apos;)]/../input
+	at org.testng.Assert.fail(Assert.java:97)
+	at pages.Verify_Edit_button_must_not_be_working_for_Overpayments_and_repayments_in_case_returnFA71515.Enter_AgentName(Verify_Edit_button_must_not_be_working_for_Overpayments_and_repayments_in_case_returnFA71515.java:177)
+	at tests.VerifyEditbuttonmustnotbeworkingforOverpaymentsandrepaymentsincasereturnFA71515_DefaultProfile.GoToUrlAssertUrlPositiveEnterUsernamePositiveEnterPasswordClickLoginButtonPositiveEnterAgentNa(VerifyEditbuttonmustnotbeworkingforOverpaymentsandrepaymentsincasereturnFA71515_DefaultProfile.java:59)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at org.testng.TestRunner.privateRun(TestRunner.java:766)
+	at org.testng.TestRunner.run(TestRunner.java:587)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+	at org.testng.TestNG.runSuites(TestNG.java:1039)
+	at org.testng.TestNG.run(TestNG.java:1007)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>13</td>
+<td>tests.VerifyEditbuttonmustnotbeworkingforOverpaymentsandrepaymentsincasereturnFA71515_DefaultProfile@31aa3ca5</td></tr>
+<tr>
+<td title='tests.VerifyRDenhancedallowanceNCTA045inProfitlossAdjustmentsisnoteditableFA7155_DefaultProfile.GoToUrlAssertUrlPositiveEnterUsernamePositiveEntercPasswordClickLoginButtonPositiveEnterAgentN()'><b>GoToUrlAssertUrlPositiveEnterUsernamePositiveEntercPasswordClickLoginButtonPositiveEnterAgentN</b><br>Test class: tests.VerifyRDenhancedallowanceNCTA045inProfitlossAdjustmentsisnoteditableFA7155_DefaultProfile</td>
+<td><div><pre>java.lang.AssertionError: Expecting URL - http://sandbox4.nomismasolution.co.uk/AccountUI/CTPreview.aspx?FYCode=52443&amp;CompanyCode=13249 Found http://sandbox4.nomismasolution.co.uk/ssoui/Signin.aspx?token=d1e56e6b-174a-4593-a560-0e170c5e41a0
+	at pages.Verify_RD_enhanced_allowanceNCTA045_in_Profitloss_Adjustments_is_not_editableFA7155.AssertUrl(Verify_RD_enhanced_allowanceNCTA045_in_Profitloss_Adjustments_is_not_editableFA7155.java:89)
+	at tests.VerifyRDenhancedallowanceNCTA045inProfitlossAdjustmentsisnoteditableFA7155_DefaultProfile.GoToUrlAssertUrlPositiveEnterUsernamePositiveEntercPasswordClickLoginButtonPositiveEnterAgentN(VerifyRDenhancedallowanceNCTA045inProfitlossAdjustmentsisnoteditableFA7155_DefaultProfile.java:43)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1149993098", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1149993098'><pre>java.lang.AssertionError: Expecting URL - http://sandbox4.nomismasolution.co.uk/AccountUI/CTPreview.aspx?FYCode=52443&amp;CompanyCode=13249 Found http://sandbox4.nomismasolution.co.uk/ssoui/Signin.aspx?token=d1e56e6b-174a-4593-a560-0e170c5e41a0
+	at org.testng.Assert.fail(Assert.java:97)
+	at pages.Verify_RD_enhanced_allowanceNCTA045_in_Profitloss_Adjustments_is_not_editableFA7155.AssertUrl(Verify_RD_enhanced_allowanceNCTA045_in_Profitloss_Adjustments_is_not_editableFA7155.java:89)
+	at tests.VerifyRDenhancedallowanceNCTA045inProfitlossAdjustmentsisnoteditableFA7155_DefaultProfile.GoToUrlAssertUrlPositiveEnterUsernamePositiveEntercPasswordClickLoginButtonPositiveEnterAgentN(VerifyRDenhancedallowanceNCTA045inProfitlossAdjustmentsisnoteditableFA7155_DefaultProfile.java:43)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at org.testng.TestRunner.privateRun(TestRunner.java:766)
+	at org.testng.TestRunner.run(TestRunner.java:587)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+	at org.testng.TestNG.runSuites(TestNG.java:1039)
+	at org.testng.TestNG.run(TestNG.java:1007)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>10</td>
+<td>tests.VerifyRDenhancedallowanceNCTA045inProfitlossAdjustmentsisnoteditableFA7155_DefaultProfile@640f11a1</td></tr>
+<tr>
+<td title='tests.VerifylockandunlockbuttonstatusofSubmitscreenFA7151_DefaultProfile.PositiveEnterUsernamePositiveEnterPasswordClickLoginButtonPositiveEnterAgentNameClickSearchbutt()'><b>PositiveEnterUsernamePositiveEnterPasswordClickLoginButtonPositiveEnterAgentNameClickSearchbutt</b><br>Test class: tests.VerifylockandunlockbuttonstatusofSubmitscreenFA7151_DefaultProfile</td>
+<td><div><pre>java.lang.AssertionError: Unable to locate object: By.xpath: //label[contains(.,&apos;Name:&apos;)]/../input
+	at pages.Verify_lock_and_unlock_button_status_of_Submit_screenFA7151.Enter_AgentName(Verify_lock_and_unlock_button_status_of_Submit_screenFA7151.java:176)
+	at tests.VerifylockandunlockbuttonstatusofSubmitscreenFA7151_DefaultProfile.PositiveEnterUsernamePositiveEnterPasswordClickLoginButtonPositiveEnterAgentNameClickSearchbutt(VerifylockandunlockbuttonstatusofSubmitscreenFA7151_DefaultProfile.java:58)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace408388753", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace408388753'><pre>java.lang.AssertionError: Unable to locate object: By.xpath: //label[contains(.,&apos;Name:&apos;)]/../input
+	at org.testng.Assert.fail(Assert.java:97)
+	at pages.Verify_lock_and_unlock_button_status_of_Submit_screenFA7151.Enter_AgentName(Verify_lock_and_unlock_button_status_of_Submit_screenFA7151.java:176)
+	at tests.VerifylockandunlockbuttonstatusofSubmitscreenFA7151_DefaultProfile.PositiveEnterUsernamePositiveEnterPasswordClickLoginButtonPositiveEnterAgentNameClickSearchbutt(VerifylockandunlockbuttonstatusofSubmitscreenFA7151_DefaultProfile.java:58)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at org.testng.TestRunner.privateRun(TestRunner.java:766)
+	at org.testng.TestRunner.run(TestRunner.java:587)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+	at org.testng.TestNG.runSuites(TestNG.java:1039)
+	at org.testng.TestNG.run(TestNG.java:1007)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>13</td>
+<td>tests.VerifylockandunlockbuttonstatusofSubmitscreenFA7151_DefaultProfile@53142455</td></tr>
+</table><p>
+</body>
+</html>
