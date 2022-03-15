@@ -162,9 +162,9 @@ public class TC01LedgerCode_7511CharitableDonations extends TestBase
       
       _CT_Computation_Corporation_Tax.getAccountBalance(data[6]);
       
-      /*   _CT_Computation_Corporation_Tax.verifyTotalValue();
+        _CT_Computation_Corporation_Tax.verifyTotalValue();
       
-      */
+      
       
     }
     }    

@@ -177,7 +177,12 @@ public class CT_Adjustment_ProfitLossTab extends BasePage
 			else
 			{
 			
-			ExpectedAmortisationBalance = getLedgervalue;
+				ExpectedAmortisationBalance = getLedgervalue;
+			
+			 if(ExpectedAmortisationBalance.contains(","))
+	 		 {
+				 ExpectedAmortisationBalance=ExpectedAmortisationBalance.replace(",", "");
+	 		 }
 			
 			System.out.println("I'm returned value:"+ExpectedAmortisationBalance);
 			
